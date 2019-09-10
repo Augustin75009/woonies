@@ -1,14 +1,58 @@
 <footer>
-  <div>
-    <div></div>
-    <div>
-      <div></div>
-      <div></div>
+  <div class="footer-top">
+    <div class="footer-logo-left">
+      <%= image_tag "logo-pink.png", height: 24 %>
     </div>
-    <div></div>
+    <div class="footer-content">
+      <div class="footer-content-woonies">
+        <h1>Woonies</h1>
+        <ul>
+          <li><%= link_to "À propos", root_path %></li>
+          <li><%= link_to "Contact", root_path %></li>
+        </ul>
+      </div>
+      <div class="footer-content-ressources">
+        <h1>Ressources</h1>
+        <ul>
+          <li><%= link_to "Guide des modes de garde", root_path %></li>
+          <li><%= link_to "Le blog Woonies", root_path %></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-logo-right">
+      <%= image_tag "footer-birds.png", height: 53 %>
+    </div>
   </div>
-  <div>
-    <div></div>
-    <div></div>
+  <div class="footer-bottom">
+    <div class="copyrights">
+      <p>Copyright © 2018 Woonies. Tous droits réservés.</p>
+    </div>
+    <div class="links">
+      <div class="internal-links">
+        <ul>
+          <li><%= link_to "Utilisation des cookies", root_path %></li>
+          <li><%= link_to "Conditions d'utilisation", root_path %></li>
+          <li><%= link_to "Mentions légales", root_path %></li>
+        </ul>
+      </div>
+      <div class="external-links">
+        <ul>
+          <li>
+            <%= link_to(root_path) do %>
+              <%= image_tag "Facebook.svg", height: 24 %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to(root_path) do %>
+              <%= image_tag "LinkedIn.svg", height: 24 %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to(root_path) do %>
+              <%= image_tag "Twitter.svg", height: 24 %>
+            <% end %>          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>

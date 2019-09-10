@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Icon/App/Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.1889527,22 L15.1889527,14.7272727 L17.5454545,14.7272727 L19,11.8181818 L15.1889527,11.8181818 L15.1889527,10.4812436 C15.1889527,9.56810182 15.4425091,8.94583273 16.7520436,8.94583273 L18.4220291,8.94507636 L18.4220291,6.12425455 C18.1331418,6.08586909 17.1418618,6 15.9884655,6 C13.5805964,6 11.9090909,7.3008 11.9090909,10 L11.9090909,11.8181818 L9,11.8181818 L9,14.7272727 L11.9090909,14.7272727 L11.9320218,22 L2.83333333,22 C2.33333333,22 2,21.6666667 2,21.1666667 L2,2.83333333 C2,2.33333333 2.33333333,2 2.83333333,2 L21.1666667,2 C21.6666667,2 22,2.33333333 22,2.83333333 L22,21.1666667 C22,21.6666667 21.6666667,22 21.1666667,22 L15.1889527,22 Z" id="path-1"></path>
+    </defs>
+    <g id="FOOTER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="Group-23" transform="translate(-1178.000000, -163.000000)">
+            <g id="Group-19">
+                <g id="Group-5-Copy">
+                    <g id="Group-5" transform="translate(0.000000, 133.000000)">
+                        <g id="Icon/App/Facebook" transform="translate(1176.000000, 28.000000)">
+                            <polygon id="Bounding-Box" points="0 0 24 0 24 24 0 24"></polygon>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#3B5998" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <g id="Mixin/Fill/Black" mask="url(#mask-2)" fill="#202E3A" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
