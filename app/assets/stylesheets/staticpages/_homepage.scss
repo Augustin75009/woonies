@@ -5,14 +5,26 @@
 	left: 10px;
 }
 
-#section1 {
-	padding-top: 100px;
-	height: 500px;
-	display: flex;
+#homegrid {
+	display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "seconeA seconeA seconeB seconeB"
+    "sectwoA sectwoA sectwoB sectwoB"
+    ". secthreeA secthreeB secthreeC"
+    "secfour secfour secfour secfour"
+    "secfiveA secfiveA secfiveB secfiveB"
+    ". . secsix secsix"
+    "secsevenA secsevenA secsevenB secsevenB"
+    "seceight seceight seceight seceight"
 }
 
+
+
 #section1A {
-	height: 100%;
+	grid-area: seconeA;
+	padding-top: 80px;
 	background-color: #FFCFC5;
 	h1 {
 		font-size: 24px;
@@ -28,11 +40,21 @@
 		color: black;
 		font-size: 14px;
 	}
+	form {
+		input {
+			background-color: white;
+		}
+		button {
+			font-size: 14px;
+			color: white;
+			background-color: black;
+		}
+	}
 }
 
-
 #section1B {
-	height: 100%;
+	grid-area: seconeB;
+	padding-top: 80px;
 	background-color: #18273A;
 	h1 {
 		font-size: 18px;
@@ -48,4 +70,57 @@
 		font-size: 14px;
 		color: white;
 	}
+	form {
+		input {
+			background-color: white;
+		}
+		button {
+			font-size: 14px;
+			color: white;
+			background-color: black;
+		}
+	}
 }
+
+#section2A {
+	grid-area: sectwoA;
+	background-image: url(miniature1.png);
+}
+#section2B {
+	grid-area: sectwoB;
+}
+#section3A {
+	grid-area: secthreeA;
+}
+#section3B {
+	grid-area: secthreeB;
+}
+#section3C {
+	grid-area: secthreeC;
+}
+#section4 {
+	grid-area: secfour;
+}
+#section5A {
+	grid-area: secfiveA;
+}
+#section5B {
+	grid-area: secfiveB;
+	background-image: url(watching_see.png);
+}
+#section6 {
+	grid-area: secsix;
+}
+#section7A {
+	grid-area: secsevenA;
+}
+#section7B {
+	grid-area: secsevenB;
+	background-image: url(baby_on_plane.png);
+}
+#section8 {
+	grid-area: seceight;
+}
+
+
+
