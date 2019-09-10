@@ -13,4 +13,17 @@
  *= require_tree .
  *= require_self
  */
-@import "bootstrap/scss/bootstrap";
+
+@import "config/fonts";
+@import "config/colors";
+
+//OUR PARTIALS
+@import "staticpages/index";
+@import "shared_components/index";
+
+//GLOBAL SETUP
+
+body {
+	margin: 0px;
+	position: relative;
+}
