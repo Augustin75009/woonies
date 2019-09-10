@@ -1,0 +1,30 @@
+<footer>
+  <div class="footer-bottom">
+    <div class="copyrights">
+      <p>Copyright © 2018 Woonies. Tous droits réservés.</p>
+    </div>
+    <div class="links">
+      <div class="internal-links">
+        <p>Contact: hello@woonies.com</p>
+      </div>
+      <div class="external-links">
+        <ul>
+          <li>
+            <%= link_to(root_path) do %>
+              <%= image_tag "Facebook.svg", height: 24 %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to(root_path) do %>
+              <%= image_tag "LinkedIn.svg", height: 24 %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to(root_path) do %>
+              <%= image_tag "Twitter.svg", height: 24 %>
+            <% end %>          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
