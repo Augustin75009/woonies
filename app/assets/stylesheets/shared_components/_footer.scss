@@ -69,7 +69,7 @@ footer {
 }
 
 .footer-bottom .links {
-  flex: 3; //to be remove for final version
+  //to be remove for final version
   div {
     ul {
       padding: 0px;
@@ -84,7 +84,7 @@ footer {
     }
   }
   .internal-links {
-    flex: 1; //to be change to 2 for final version
+    flex: 2; //to be change to 2 for final version
     ul {
       color: #18273A;
       opacity: 0.5;
@@ -93,7 +93,7 @@ footer {
   .external-links {
     flex: 1;
     ul {
-      margin-left: 50% !important; //to be changed to 0px for final version
+      margin-left: 0px !important; //to be changed to 0px for final version
       color: #18273A;
       opacity: 0.5;
     }
@@ -107,7 +107,7 @@ footer {
   }
   .internal-links {
     p {
-      margin-left: 50% !important; //to be changed to 0px for final version
+      margin-left: 0px !important; //to be changed to 0px for final version
     }
   }
   .copyrights {
