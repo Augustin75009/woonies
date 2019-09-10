@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="56px" viewBox="0 0 61 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="FOOTER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-page---Parents-/-Pro-Copy" transform="translate(-1140.000000, -1013.000000)" fill-rule="nonzero">
+            <g id="Group-24" transform="translate(1140.000000, 1006.000000)">
+                <g id="Group-30" transform="translate(0.000000, 7.000000)">
+                    <path d="M29.9059783,5.01207294 L30.1727722,5.27385656 L30.3141019,5.41578021 L30.407132,5.32575156 C37.3080361,-1.30610003 48.2692467,-1.21883882 55.0633007,5.58753517 C61.9455786,12.4823141 61.9455786,23.660951 55.0632954,30.5557247 L54.8901019,30.3817802 L30.1403434,55.1777479 L5.25010191,30.2417802 L5.24981494,30.2420461 C-1.54423383,23.4356669 -1.63133702,12.4545631 4.98850034,5.54113466 L5.24980971,5.27385656 C12.0438636,-1.53251744 23.0050742,-1.61977865 29.9059783,5.01207294 Z" id="Combined-Shape" fill="#FFCFC5"></path>
+                    <polygon id="Rectangle-Copy-7" fill="#22693D" transform="translate(30.000000, 32.000000) rotate(-225.000000) translate(-30.000000, -32.000000) " points="16 18.0253853 44 18 43.9746147 46"></polygon>
+                </g>
+                <path d="M66,27.4841379 C66.0087551,17.8191568 58.1808432,9.9912449 48.5158621,10 C38.8508811,10.0087698 31.0087624,17.8508884 31,27.5158695 L66,27.4841379 Z" id="Oval" fill="#FFCFC5" transform="translate(48.500000, 18.757935) rotate(45.000000) translate(-48.500000, -18.757935) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
