@@ -1,0 +1,51 @@
+#homelogo {
+	position: absolute;
+	width: 244px;
+	top: 10px;
+	left: 10px;
+}
+
+#section1 {
+	padding-top: 100px;
+	height: 500px;
+	display: flex;
+}
+
+#section1A {
+	height: 100%;
+	background-color: #FFCFC5;
+	h1 {
+		font-size: 24px;
+		font-weight: normal;
+		color: black;
+	}
+	h2 {
+		font-size: 24px;
+		font-weight: normal;
+		color: black;
+	}
+	p {
+		color: black;
+		font-size: 14px;
+	}
+}
+
+
+#section1B {
+	height: 100%;
+	background-color: #18273A;
+	h1 {
+		font-size: 18px;
+		font-weight: normal;
+		color: white;
+	}
+	h2 {
+		font-size: 24px;
+		font-weight: normal;
+		color: white;
+	}
+	p {
+		font-size: 14px;
+		color: white;
+	}
+}
