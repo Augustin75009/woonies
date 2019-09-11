@@ -33,7 +33,7 @@
 				</button>
 			</form>
 			<div id="subsection1B">
-				<%= image_tag "guide_garde.png", height: 122 %>
+				<%= image_tag "guide_garde.png" %>
 				<div>
 					<p class="white">Percez les secrets des modes de <br> garde : découvrez notre blog !</p>
 					<a href="#">blog.woonies.com</a>
@@ -43,29 +43,32 @@
 	</div>
 
 	<div id="section2A">
-		<div id="miniature"></div>
+		<div class="content">
+			<%= image_tag "miniature1.png" %>
+		</div>
 	</div>
 	<div id="section2B">
-			<h1>Avec Woonies trouver son mode de garde devient un vrai jeu d’enfant !</h1>
-			<p>Grâce à Woonies, vous pouvez désormais visualiser les places disponibles des professionnels qui vous entourent !Avec sa recherche avancée autour d’une adresse, en fonction de dates et horaires et de l’âge de votre enfant, Woonies vous permet de trouver facilement un mode de garde agréé, pour de l’accueil régulier ou occasionnel, qui correspond parfaitement à vos besoins.</p>
+			<h2><div class="linepink">Avec Woonies trouver son mode de garde devient un vrai jeu d’enfant !</div></h2>
+			<p>Grâce à Woonies, vous pouvez désormais <span class="semibold">visualiser les places disponibles des professionnels qui vous entourent !</span></p>
+			<p>Avec sa recherche avancée autour d’une adresse, en fonction de dates et horaires et de l’âge de votre enfant, Woonies vous permet de trouver facilement <span class="semibold">un mode de garde agréé, pour de l’accueil régulier ou occasionnel</span>, qui correspond parfaitement à vos besoins.</p>
 	</div>
 	<div id="section3A">
 		<%= image_tag "round_yellow.svg" %>
-		<h1>Géolocalisation</h1>
-		<p>Concentrez vos recherches autour d’un point qui correspond à vos besoins.</p>
+		<p class="semibold">Géolocalisation</p>
+		<p class="lightgray">Concentrez vos recherches autour d’un point qui correspond à vos besoins.</p>
 	</div>
 	<div id="section3B">
 		<%= image_tag "round_blue.svg" %>
-		<h1>Disponibilités</h1>
-		<p>Réservez à n’importe quel moment, 24h/24 et 7j/7.</p>
+		<p class="semibold">Disponibilités</p>
+		<p class="lightgray">Réservez à n’importe quel moment, 24h/24 et 7j/7.</p>
 	</div>
 	<div id="section3C">
 		<%= image_tag "heart.svg" %>
-		<h1>Pouvoir comparer</h1>
-		<p>Visualisez en un clin d’oeil tous les modes de garde disponibles.</p>
+		<p class="semibold">Pouvoir comparer</p>
+		<p class="lightgray">Visualisez en un clin d’oeil tous les modes de garde disponibles.</p>
 	</div>
-	<div id="section4">
-		<h1>Woonies : un service entièrement gratuit pour les parents !</h1>
+	<div id="section4" class="bgblack textcenter">
+		<h3 class="white">Woonies : un service entièrement gratuit pour les parents !</h3>
 	</div>
 	<div id="section5A">
 		<h1>Recherchez un professionnel agréé</h1>
