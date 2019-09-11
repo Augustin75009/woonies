@@ -127,7 +127,8 @@
 /* Document level adjustments */
 html {
   font-size: 16px;
-  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-family: Graphik, sans-serif;
 }
 body {
   padding: 0 1rem;
@@ -135,6 +136,8 @@ body {
 h1 {
   margin-top: 0;
 }
+
+/* Scaling down fonts for responsivity */
 @media (max-width: 900px) {
   html { font-size: 14px; }
 }
@@ -148,9 +151,6 @@ h1 {
 }
 .footer {
   font-size: 0.75rem;
-}
-.sidebar {
-  font-size: 0.85rem;
 }
 
 /* Type will scale with modules */
@@ -168,3 +168,37 @@ h3 {
 }
 
 
+/* Easy styling classes */
+.bold {
+	font-weight: 600;
+}
+.light {
+	font-weight: 200;
+}
+.white {
+	color: white;
+}
+.pink {
+	color: #FFCFC5;
+}
+.green {
+	color: #22693D;
+}
+.yellow {
+	color: #FFD07C;
+}
+.bgblack {
+	background-color: #18273A;
+}
+.bgpink {
+	background-color: #FFCFC5;
+}
+.bggreen {
+	background-color: #22693D;
+}
+.bgyellow {
+	background-color: #FFD07C;
+}
+.bgblue {
+	background-color: #E6F5FA;
+}	
