@@ -1,4 +1,7 @@
 #about-section {
+  h4 {
+    font-size: 17px;
+  }
   background-color: #E6F5FA;
   div > h1 {
     margin-bottom: 40px;
@@ -7,15 +10,23 @@
 
 
   .history {
-    padding: 114px 160px 48px 160px;
+    padding: 114px 160px 158px 160px;
+    background:
+    url(Ensemble-1.svg) 100% 100% / 20rem no-repeat,
+    url(Poussin-Blanc.svg) 100px 100% / 4rem no-repeat,
+    url(Poussin-Blanc.svg) 180px 100% / 4rem no-repeat,
+    url(Grand-Sapin-2.svg) 80% 100% / 6rem no-repeat;
     div {
       max-width: 665px;
     }
   }
 
   .mission {
-    padding: 33px 160px 48px 160px;
+    padding: 69px 160px 64px 160px;
     background-color: #FFFFFF;
+    background:
+    url(Canard-Rose.svg) 30% 50% / 12rem no-repeat,
+    url(Poussin-Blanc.svg) 100px 100% / 4rem no-repeat;
     div {
       max-width: 665px;
       text-align: initial;
@@ -80,9 +91,22 @@
     text-align: center;
   }
 
+  .about-bottom {
+    div {
+      display: flex;
+      img {
+        margin: 89px auto 107px auto;
+      }
+    }
+  }
 }
 
 .navbarseethrough.in-about {
   margin: 23.5px;
 }
 
+@media (max-width: 800px) {
+  .about-bottom > div > img {
+    width: 75%;
+  }
+}
