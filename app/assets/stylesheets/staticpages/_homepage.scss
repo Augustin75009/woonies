@@ -74,6 +74,10 @@
 	display: flex;
 	justify-content: space-between;
 	margin-top: 20px;
+	img {
+			height: auto;
+			max-width: 250px;
+	}
 	p {
 		text-align: right;
 	}
@@ -90,13 +94,16 @@
 
 #section2A {
 	grid-area: sectwoA;
+	padding: 80px 50px 80px 80px ;
+	.content {
+		img {
+			height: auto;
+			max-width: 100%;
+		}
+	}
 }
 #miniature{
-		margin: 5% auto;
-		height: 80%;
-		width: 80%;
-		background-image: url(miniature1.png);
-		background-position: center;
+		
 
 	}
 #section2B {
