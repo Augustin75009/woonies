@@ -1,8 +1,13 @@
-#homelogo {
+.navbarseethrough {
 	position: absolute;
-	width: 244px;
-	top: 10px;
-	left: 10px;
+	height: 80px;
+	width: 100%;
+}
+
+#homelogo {
+	height: 43px;
+	margin-left: 21.5px;
+	margin-top: 21.5px;
 }
 
 #homegrid {
@@ -21,21 +26,34 @@
 }
 
 #section1A {
+	font-size: 1rem;
 	grid-area: seconeA;
 	padding-top: 80px;
-	background-color: #FFCFC5;
-	h1 {
-		color: black;
+	height: 531px;
+	.content {
+		margin: 20px auto;
+		width: 70%;
+	}
+	p {
+		line-height: 24px;
+	}
+	h3 {
+		margin: 0.1em 0;
 	}
 	h2 {
-		color: black;
+		margin: 0.1em 0;
 	}
 	form {
+		width: 100%;
 		input {
+			width: 70%;
+			height: 46px;
 			background-color: white;
 		}
 		button {
+			width: 25%;
 			font-size: 14px;
+			height: 46px;
 			color: white;
 			background-color: black;
 		}
@@ -45,17 +63,6 @@
 #section1B {
 	grid-area: seconeB;
 	padding-top: 80px;
-	background-color: #18273A;
-	h1 {
-		color: white;
-	}
-	h2 {
-		color: white;
-	}
-	p {
-		font-size: 14px;
-		color: white;
-	}
 	form {
 		input {
 			background-color: white;
