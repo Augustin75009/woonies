@@ -28,7 +28,7 @@
 #section1A {
 	font-size: 1rem;
 	grid-area: seconeA;
-	padding: 100px;
+	padding: 100px 80px 80px 80px;
 	h3 {
 		margin: 0.1em 0;
 	}
@@ -48,7 +48,7 @@
 #section1B {
 	font-size: 1rem;
 	grid-area: seconeB;
-	padding: 100px;
+	padding: 100px 80px 80px 80px;
 	h3 {
 		margin: 0.1em 0;
 	}
@@ -94,7 +94,7 @@
 
 #section2A {
 	grid-area: sectwoA;
-	padding: 80px 50px 80px 80px ;
+	padding: 80px 50px 80px 100px ;
 	.content {
 		img {
 			height: auto;
@@ -102,12 +102,14 @@
 		}
 	}
 }
-#miniature{
-		
 
-	}
 #section2B {
+	font-size: 1rem;
+	padding: 80px;
 	grid-area: sectwoB;
+	h2 {
+		margin-top: 0;
+	}
 }
 #section3A {
 	grid-area: secthreeA;
