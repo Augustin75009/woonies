@@ -1,15 +1,15 @@
 <div class="navbarseethrough">
 	<%= link_to root_path do %>
-	  <%= image_tag "logo.png", height: 43 %>
+	  <%= image_tag "logo.png", height: 43, id: 'homelogo' %>
 	<% end %>
 </div>
 
 <div id="homegrid">
 	<div id="section1A" class="bgpink">
 		<div class="content">
-			<h3 class="semibold">Professionnels</h3>
+			<h3 class="semibold"><div class="linepink">Professionnels</div></h3>
 			<h2>Pré-inscrivez-vous !</h2>
-			<p class="light">Vous pourrez ainsi <strong>créer votre profil professionel en avant première</strong> et être les premiers alertés du lancement !</p>
+			<p class="light">Vous pourrez ainsi <span class="semibold">créer votre profil professionel en avant première</span> et être les premiers alertés du lancement !</p>
 			<form action="#">
 				<input type="email" placeholder="Votre email">
 				<button>

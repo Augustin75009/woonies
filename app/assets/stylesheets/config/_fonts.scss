@@ -126,9 +126,10 @@
 
 /* Document level adjustments */
 html {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   font-family: Graphik, sans-serif;
+  color: #18273A;
 }
 
 /* Scaling down fonts for responsivity */
@@ -140,25 +141,19 @@ html {
 }
 
 /* Modules will scale with document */
-.header {
-  font-size: 1.5rem;
-}
 .footer {
   font-size: 0.75rem;
 }
 
 /* Type will scale with modules */
-p {
-	font-size: 1em;
-}
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 h2 {
-  font-size: 2em;
+  font-size: 2.85em;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.85em;
 }
 
 
@@ -201,4 +196,16 @@ h3 {
 }
 .bgblue {
 	background-color: #E6F5FA;
-}	
+}
+.linepink {
+	display: inline;
+  white-space: pre-wrap;
+  box-shadow: rgb(255, 180, 155) 0px -0.5rem 0px inset;
+  padding: 0px 0.2rem;
+}
+.linegreen {
+	display: inline;
+  white-space: pre-wrap;
+  box-shadow: rgb(110, 190, 180) 0px -0.5rem 0px inset;
+  padding: 0px 0.2rem;
+}
