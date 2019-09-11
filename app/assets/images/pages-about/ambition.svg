@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group 29 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="FOOTER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="À-propos" transform="translate(-544.000000, -1113.000000)">
+            <g id="Group-23" transform="translate(160.000000, 1113.000000)">
+                <g id="Group-29-Copy" transform="translate(384.000000, 0.000000)">
+                    <g id="Group-28">
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="28" cy="28" r="28"></circle>
+                        <g id="Group-11" transform="translate(30.091883, 26.091883) rotate(-45.000000) translate(-30.091883, -26.091883) translate(15.091883, 14.091883)" stroke="#FA9682" stroke-width="2">
+                            <path d="M20,12 C20,16.418 16.418,20 12,20 C7.582,20 4,16.418 4,12 C4,7.582 7.582,4 12,4 C16.418,4 20,7.582 20,12 Z" id="Stroke-1"></path>
+                            <path d="M16,12 C16,14.209 14.209,16 12,16 C9.791,16 8,14.209 8,12 C8,9.791 9.791,8 12,8 C14.209,8 16,9.791 16,12 Z" id="Stroke-3"></path>
+                            <path d="M12,12 L23,12" id="Stroke-5" stroke-linecap="round"></path>
+                            <polygon id="Stroke-7" stroke-linecap="round" points="30 14.333 24.556 14.333 23 12 24.556 9.667 30 9.667 28.444 12"></polygon>
+                            <path d="M22.8984,7 C21.0014,2.872 16.8404,0 12.0004,0 C5.3734,0 0.0004,5.373 0.0004,12 C0.0004,18.627 5.3734,24 12.0004,24 C16.8404,24 21.0014,21.128 22.8984,17" id="Stroke-9"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

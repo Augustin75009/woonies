@@ -1,0 +1,157 @@
+#about-section {
+  h4 {
+    font-size: 17px;
+  }
+  div > h1 {
+    margin-bottom: 40px;
+  }
+
+
+
+  .history {
+    padding: 114px 160px 158px 160px;
+    background:
+    url(Ensemble-Sapin.svg) 100% 100% / 30rem no-repeat,
+    url(Poussin-Blanc.svg) 100px 100% / 4rem no-repeat,
+    url(Poussin-Blanc.svg) 180px 100% / 4rem no-repeat,
+    url(Ensemble-Soleil.svg) 300px 100% / 16rem no-repeat;
+    background-color: #E6F5FA;
+    div {
+      max-width: 665px;
+    }
+  }
+
+  .mission {
+    padding: 34px 160px 64px 160px;
+    background:
+    url(Canard-Rose.svg) calc(20%) 30% / 12rem no-repeat,
+    url(Gommettes-1.svg) -80px 50% / 25rem no-repeat;
+    background-color: #FFFFFF;
+    div {
+      max-width: 665px;
+      text-align: initial;
+    }
+  }
+
+  .values {
+    padding: 33px 160px 28px 160px;
+    background:
+    url(Gommettes-pink.svg) 90% 90% / 22rem no-repeat;
+    background-color: #FFCFC5;
+    .values-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        width: calc(33.3% - 53px);
+        margin-right: 53px;
+        margin-bottom: 20px;
+      }
+      div:last-child {
+      }
+
+    }
+  }
+
+  .founders {
+    padding: 33px 160px 48px 160px;
+    background:
+    url(Gommettes-2.svg) -10px 90% / 12rem no-repeat,
+    url(Gommettes-4.svg) 102% 40% / 16rem no-repeat;
+    background-color: #FFFFFF;
+    div {
+      display: flex;
+      justify-content: space-between;
+      .founders-content {
+        margin: auto 0px;
+        div {
+          display: flex;
+          flex-direction: column;
+          max-width: 500px;
+        }
+      }
+    }
+    .flex-right {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0px 120px;
+      margin-bottom: 75px;
+      margin-top: 60px;
+      flex-direction: row;
+      .founders-avatar {
+        margin-right: 80px;
+      }
+    }
+    .flex-left {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0px 120px;
+      margin-bottom: 75px;
+      flex-direction: row-reverse;
+      .founders-avatar {
+        margin-left: 80px;
+      }
+    }
+  }
+
+  .catch-phrase {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about-bottom {
+    background:
+    url(Petit-Sapin-Bleu.svg) 85% 100% / 4rem no-repeat,
+    url(Petit-Sapin-Jaune.svg) 90% 100% / 4rem no-repeat,
+    url(Ensemble-Soleil-Haut.svg) 0px 100% / 16rem no-repeat;
+    background-color: #E6F5FA;
+    div {
+      display: flex;
+      img {
+        margin: 89px auto 107px auto;
+      }
+    }
+  }
+}
+
+.navbarseethrough.in-about {
+  margin: 23.5px;
+}
+
+@media (max-width: 1250px) {
+  .mission {
+    background:
+    url(Gommettes-1.svg) -100px 50% / 25rem no-repeat !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flex-right, .flex-left {
+    padding: 0px !important;
+  }
+  .mission {
+    background:
+    url(Gommettes-1.svg) -200px 50% / 25rem no-repeat !important;
+  }
+}
+
+@media (max-width: 880px) {
+  .values-wrapper > div {
+    width: calc(50% - 53px) !important;
+  }
+}
+
+@media (max-width: 740px) {
+  .about-bottom > div > img {
+    width: 75%;
+  }
+
+  .history, .mission, .values, .founders {
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+  }
+
+  .flex-left, .flex-right {
+    padding: 0px !important;
+  }
+}
