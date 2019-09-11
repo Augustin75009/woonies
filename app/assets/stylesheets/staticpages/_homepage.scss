@@ -84,8 +84,15 @@
 
 #section2A {
 	grid-area: sectwoA;
-	background-image: url(miniature1.png);
 }
+#miniature{
+		margin: 5% auto;
+		height: 80%;
+		width: 80%;
+		background-image: url(miniature1.png);
+		background-position: center;
+
+	}
 #section2B {
 	grid-area: sectwoB;
 }
