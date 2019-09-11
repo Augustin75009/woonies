@@ -23,12 +23,18 @@
 #section1A {
 	grid-area: seconeA;
 	padding-top: 80px;
-	h1 {
-		color: black;
+	height: 531px;
+	.content {
+		margin: 20px auto;
+		width: 75%;
+	}
+	h3 {
+		margin: 0.1em 0;
 	}
 	h2 {
-		color: black;
+		margin: 0.1em 0;
 	}
+
 	form {
 		input {
 			background-color: white;
@@ -44,16 +50,6 @@
 #section1B {
 	grid-area: seconeB;
 	padding-top: 80px;
-	h1 {
-		color: white;
-	}
-	h2 {
-		color: white;
-	}
-	p {
-		font-size: 14px;
-		color: white;
-	}
 	form {
 		input {
 			background-color: white;
