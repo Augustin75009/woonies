@@ -143,16 +143,60 @@
 }
 #section6 {
 	grid-area: secsix;
+	padding: 80px;
+	.content{
+		h2{
+			margin-top: 0;
+		}
+		p{
+			margin-top: 0;
+			margin-left: 10px;
+		}
+	}
+	.flex{
+		align-content: flex-start;
+	}
 }
 #section7A {
 	grid-area: secsevenA;
+	padding: 80px;
+	.content{
+		h2{
+			margin-top: 0;
+		}
+		p{
+			margin-top: 0;
+			margin-left: 10px;
+		}
+	}
+	.flex{
+		align-content: flex-start;
+	}
 }
 #section7B {
 	grid-area: secsevenB;
 	background-image: url(baby_on_plane.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 #section8 {
+	padding: 80px 50px;
 	grid-area: seceight;
+	.content{
+		height: 196px;
+		position: relative;
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+		background-color: white;
+		vertical-align: center;
+	}
+	img{
+			height: 88px;
+			position: absolute;
+			top: -44px;
+		}
 }
 
 
