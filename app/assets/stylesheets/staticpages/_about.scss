@@ -36,6 +36,50 @@
     }
   }
 
+  .founders {
+    padding: 33px 160px 48px 160px;
+    background-color: #FFFFFF;
+    div {
+      display: flex;
+      justify-content: space-between;
+      .founders-content {
+        margin: auto 0px;
+        div {
+          display: flex;
+          flex-direction: column;
+          max-width: 500px;
+        }
+      }
+    }
+    .flex-right {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0px 120px;
+      margin-bottom: 75px;
+      margin-top: 60px;
+      flex-direction: row;
+      .founders-avatar {
+        margin-right: 80px;
+      }
+    }
+    .flex-left {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0px 120px;
+      margin-bottom: 75px;
+      flex-direction: row-reverse;
+      .founders-avatar {
+        margin-left: 80px;
+      }
+    }
+  }
+
+  .catch-phrase {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+
 }
 
 .navbarseethrough.in-about {
