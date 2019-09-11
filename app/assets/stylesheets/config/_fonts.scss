@@ -146,6 +146,10 @@ html {
 }
 
 /* Type will scale with modules */
+p {
+    font-size: 1em;
+    line-height: calc(1em + 10px);
+}
 h1 {
   font-size: 3em;
 }

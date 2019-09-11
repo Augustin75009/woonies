@@ -10,36 +10,38 @@
 			<h3 class="semibold"><div class="linepink">Professionnels</div></h3>
 			<h2>Pré-inscrivez-vous !</h2>
 			<p class="light">Vous pourrez ainsi <span class="semibold">créer votre profil professionel en avant première</span> et être les premiers alertés du lancement !</p>
-			<form action="#">
-				<input type="email" placeholder="Votre email">
+			<form class="form-inline-bw" action="#">
+				<label for="email" hidden></label>
+				<input type="email" placeholder="Adresse e-mail" name="email">
 				<button>
-					<div id="presub1A">
-						valider <i class="fas fa-arrow-right"></i>
-					</div>
+					<div class="spacearoundflex">valider <%= image_tag "arrow-right.svg"%></div>
 				</button>
 			</form>
 		</div>
 	</div>
+
 	<div id="section1B" class="bgblack">
-		<h3 class="normal white">Parents</h3>
-		<h2 class="white">Bientôt disponible...</h2>
-		<p class="white" >Indiquez votre adresse e-mail et recevez <strong>gratuitement notre guide complet des modes de garde !</strong></p>
-		<form action="#">
-			<input type="email" placeholder="Votre email">
-			<button>
-				<div id="presub1A">
-					valider <i class="fas fa-arrow-right"></i>
+		<div class="content">
+			<h3 class="semibold white"><div class="linegreen">Parents</div></h3>
+			<h2 class="white">Bientôt disponible …</h2>
+			<p class="light white">Indiquez votre adresse e-mail et recevez <span class="semibold white">gratuitement notre guide complet des modes de garde ! </span></p>
+			<form class="form-inline-bw" action="#">
+				<label for="email" hidden></label>
+				<input type="email" placeholder="Adresse e-mail" name="email">
+				<button>
+					<div class="spacearoundflex">valider <%= image_tag "arrow-right.svg"%></div>
+				</button>
+			</form>
+			<div id="subsection1B">
+				<%= image_tag "guide_garde.png", height: 122 %>
+				<div>
+					<p class="white">Percez les secrets des modes de <br> garde : découvrez notre blog !</p>
+					<a href="#">blog.woonies.com</a>
 				</div>
-			</button>
-		</form>
-		<div class="flex" >
-			<%= image_tag "guide_garde.png", height: 43 %>
-			<div>
-				<p>Percez les secrets des modes de garde : découvrez notre blog !</p>
-				<a href="#">blog.woonies.com</a>
 			</div>
 		</div>
 	</div>
+
 	<div id="section2A">
 		<div id="miniature"></div>
 	</div>
