@@ -1,0 +1,38 @@
+.form-inline-bw {
+	display: flex;
+  flex-flow: row wrap;
+ 	align-items: center;
+ 	margin-top: 20px;
+ 	::-webkit-input-placeholder {
+			font-weight: 400;
+			font-family: Graphik;
+		  color: #18273A;
+		  font-size: 1.1rem;
+		}
+ 	input {
+ 		width: 60%;
+		vertical-align: middle;
+	  margin: 0;
+	  border: none;
+	 	border-radius: 8px 0 0 8px;
+	 	padding: 0;
+	  padding-left: 1.3rem;
+	  height: 46px;
+	  font-size: 1.1rem;
+ 	}
+ 	button {
+ 		width: 30%;
+ 		height: 46px;
+ 		padding: 0 1.3rem;
+	  border: none;
+	  border-radius: 0 8px 8px 0;
+	  color: white;
+	  cursor: pointer;
+	  font-weight: 500;
+	  font-size: 1.1rem;
+
+ 	}
+ 	button:hover{
+		
+ 	}
+}

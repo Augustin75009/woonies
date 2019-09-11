@@ -29,7 +29,7 @@
 	font-size: 1rem;
 	grid-area: seconeA;
 	padding-top: 80px;
-	height: 531px;
+	height: 451px;
 	.content {
 		margin: 20px auto;
 		width: 70%;
@@ -44,34 +44,63 @@
 		margin: 0.1em 0;
 	}
 	form {
-		width: 100%;
 		input {
-			width: 70%;
-			height: 46px;
-			background-color: white;
+			background-color: rgba(255, 255, 255, 0.4);
 		}
 		button {
-			width: 25%;
-			font-size: 14px;
-			height: 46px;
-			color: white;
-			background-color: black;
+			background-color: #18273A;
 		}
 	}
 }
 
 #section1B {
+	font-size: 1rem;
 	grid-area: seconeB;
 	padding-top: 80px;
+	height: 451px;
+	.content {
+		margin: 20px auto;
+		width: 70%;
+	}
+	p {
+		line-height: 24px;
+	}
+	h3 {
+		margin: 0.1em 0;
+	}
+	h2 {
+		margin: 0.1em 0;
+	}
 	form {
+		::-webkit-input-placeholder {
+		  color: white;
+		}
 		input {
-			background-color: white;
+			background-color: rgba(255, 255, 255, 0.4);
+			color: white;
 		}
 		button {
-			font-size: 14px;
-			color: white;
-			background-color: black;
+			background-color: #7ACCC5;
+			color: #18273A;
 		}
+	}	
+}
+#subsection1B {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	p {
+		text-align: right;
+	}
+	a {
+		padding: 10px;
+		font-weight: 500;
+		float:right;
+		border-radius: 8px;
+		background-color: #DEE0E2;
+		color: #18273A;
+		text-decoration: none;
 	}
 }
 
