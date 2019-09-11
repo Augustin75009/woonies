@@ -1,126 +1,204 @@
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Thin.otf') format('truetype');
+    src: asset-url('Graphik-Thin.otf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-ThinItalic.otf') format('truetype');
+    src: asset-url('Graphik-ThinItalic.otf') format('truetype');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Extralight.otf') format('truetype');
+    src: asset-url('Graphik-Extralight.otf') format('truetype');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-ExtralightItalic.otf') format('truetype');
+    src: asset-url('Graphik-ExtralightItalic.otf') format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Light.otf') format('truetype');
+    src: asset-url('Graphik-Light.otf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-LightItalic.otf') format('truetype');
+    src: asset-url('Graphik-LightItalic.otf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Regular.otf') format('truetype');
+    src: asset-url('Graphik-Regular.otf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-RegularItalic.otf') format('truetype');
+    src: asset-url('Graphik-RegularItalic.otf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Medium.otf') format('truetype');
+    src: asset-url('Graphik-Medium.otf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-MediumItalic.otf') format('truetype');
+    src: asset-url('Graphik-MediumItalic.otf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Semibold.otf') format('truetype');
+    src: asset-url('Graphik-Semibold.otf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-SemiboldItalic.otf') format('truetype');
+    src: asset-url('Graphik-SemiboldItalic.otf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Bold.otf') format('truetype');
+    src: asset-url('Graphik-Bold.otf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-BoldItalic.otf') format('truetype');
+    src: asset-url('Graphik-BoldItalic.otf') format('truetype');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Black.otf') format('truetype');
+    src: asset-url('Graphik-Black.otf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-BlackItalic.otf') format('truetype');
+    src: asset-url('Graphik-BlackItalic.otf') format('truetype');
     font-weight: 800;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-Super.otf') format('truetype');
+    src: asset-url('Graphik-Super.otf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: asset-url('fonts/Graphik-SuperItalic.otf') format('truetype');
+    src: asset-url('Graphik-SuperItalic.otf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }
 
+/* Document level adjustments */
+html {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Graphik, sans-serif;
+}
+body {
+  padding: 0 1rem;
+}
+h1 {
+  margin-top: 0;
+}
+
+/* Scaling down fonts for responsivity */
+@media (max-width: 900px) {
+  html { font-size: 14px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 12px; }
+}
+
+/* Modules will scale with document */
+.header {
+  font-size: 1.5rem;
+}
+.footer {
+  font-size: 0.75rem;
+}
+
+/* Type will scale with modules */
+p {
+	font-size: 1em;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+
+
+/* Easy styling classes */
+.bold {
+	font-weight: 600;
+}
+.light {
+	font-weight: 200;
+}
+.white {
+	color: white;
+}
+.pink {
+	color: #FFCFC5;
+}
+.green {
+	color: #22693D;
+}
+.yellow {
+	color: #FFD07C;
+}
+.bgblack {
+	background-color: #18273A;
+}
+.bgpink {
+	background-color: #FFCFC5;
+}
+.bggreen {
+	background-color: #22693D;
+}
+.bgyellow {
+	background-color: #FFD07C;
+}
+.bgblue {
+	background-color: #E6F5FA;
+}	
