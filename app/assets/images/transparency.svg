@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group 29 Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="FOOTER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="À-propos" transform="translate(-544.000000, -1358.000000)">
+            <g id="Group-23" transform="translate(160.000000, 1113.000000)">
+                <g id="Group-29-Copy-4" transform="translate(384.000000, 245.000000)">
+                    <g id="Group-28">
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="28" cy="28" r="28"></circle>
+                        <g id="Group-33" transform="translate(12.000000, 12.000000)" stroke="#FA9682" stroke-width="2">
+                            <polyline id="Stroke-1" points="31 30 31 31 30 31"></polyline>
+                            <path d="M28,31 L13,31" id="Stroke-3" stroke-dasharray="2,2"></path>
+                            <polyline id="Stroke-5" points="12 31 11 31 11 30"></polyline>
+                            <path d="M11,28 L11,13" id="Stroke-8" stroke-dasharray="2,2"></path>
+                            <polyline id="Stroke-9" points="11 12 11 11 12 11"></polyline>
+                            <path d="M14,11 L29,11" id="Stroke-10" stroke-dasharray="2,2"></path>
+                            <polyline id="Stroke-12" points="30 11 31 11 31 12"></polyline>
+                            <path d="M31,14 L31,29" id="Stroke-14" stroke-dasharray="2,2"></path>
+                            <polyline id="Stroke-17" points="21 20 21 21 20 21"></polyline>
+                            <path d="M18,21 L3,21" id="Stroke-18" stroke-dasharray="2,2"></path>
+                            <polyline id="Stroke-20" points="2 21 1 21 1 20"></polyline>
+                            <path d="M1,18 L1,3" id="Stroke-22" stroke-dasharray="2,2"></path>
+                            <polyline id="Stroke-24" points="1 2 1 1 2 1"></polyline>
+                            <path d="M4,1 L19,1" id="Stroke-26" stroke-dasharray="2,2"></path>
+                            <polyline id="Stroke-28" points="20 1 21 1 21 2"></polyline>
+                            <path d="M21,4 L21,19" id="Stroke-31" stroke-dasharray="2,2"></path>
+                            <polygon id="Stroke-32" points="11 21 21 21 21 11 11 11"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

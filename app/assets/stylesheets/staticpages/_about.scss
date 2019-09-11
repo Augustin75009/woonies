@@ -1,17 +1,20 @@
 #about-section {
   background-color: #E6F5FA;
+  div > h1 {
+    margin-bottom: 40px;
+  }
 
 
 
   .history {
-    padding: 114px 160px 160px 160px;
+    padding: 114px 160px 48px 160px;
     div {
       max-width: 665px;
     }
   }
 
   .mission {
-    padding: 70px 160px 160px 160px;
+    padding: 33px 160px 48px 160px;
     background-color: #FFFFFF;
     div {
       max-width: 665px;
@@ -20,13 +23,22 @@
   }
 
   .values {
-    padding: 70px 160px 160px 160px;
+    padding: 33px 160px 28px 160px;
     background-color: #FFCFC5;
+    .values-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        width: calc(33.3% - 53px);
+        margin-right: 53px;
+        margin-bottom: 20px;
+      }
+    }
   }
 
 }
 
 .navbarseethrough.in-about {
-  margin: 24px;
+  margin: 23.5px;
 }
 
