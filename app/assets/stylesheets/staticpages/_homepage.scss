@@ -128,10 +128,18 @@
 }
 #section5A {
 	grid-area: secfiveA;
+	background-color: #FFCFC5;
+	padding: 50px 150px;
+	h2 {
+		margin-top: 0;
+	}
 }
 #section5B {
 	grid-area: secfiveB;
 	background-image: url(watching_see.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 #section6 {
 	grid-area: secsix;
