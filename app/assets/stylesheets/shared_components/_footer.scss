@@ -102,6 +102,9 @@ footer {
 
 
 @media (max-width: 728px) {
+  .footer-logo-right {
+    display: none !important;
+  }
   .links {
     flex-direction: column;
   }
