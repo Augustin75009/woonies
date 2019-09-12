@@ -23,6 +23,11 @@ footer {
       bottom: -24px;
       left: 45%;
     }
+    img:last-child {
+      position: absolute;
+      bottom: -24px;
+      left: calc(45% + 60px);
+    }
   }
 }
 
@@ -131,7 +136,7 @@ footer {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .footer-bottom .links > div > ul > li {
     margin-right: 4px;
   }
@@ -141,7 +146,7 @@ footer {
   .footer-content {
     margin-top: 24px;
     div:first-child {
-      text-align: center;
+      // text-align: center;
     }
   }
 }
