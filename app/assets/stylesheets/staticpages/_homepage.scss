@@ -183,20 +183,22 @@
 #section8 {
 	padding: 80px 50px;
 	grid-area: seceight;
-	.content{
-		height: 196px;
+	.content {
 		position: relative;
+		display: flex;
+		height: 196px;
 		width: 60%;
 		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
 		text-align: center;
 		background-color: white;
-		vertical-align: center;
 	}
-	img{
-			height: 88px;
-			position: absolute;
-			top: -44px;
-		}
+	img {
+		height: 88px;
+		position: absolute;
+		top: -44px;
+	}
 }
 
 
