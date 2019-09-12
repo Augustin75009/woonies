@@ -9,7 +9,7 @@
 #cgu-section {
   background: url(stickers/gommette_2.svg) -20px 20% / 10rem no-repeat;
   .cgu-container {
-    min-height: calc(100vh - 300px);
+    min-height: calc(100vh - 80px);
     margin: 33px auto;
     max-width: 925px;
     padding: 0px 40px;
@@ -18,12 +18,7 @@
       margin-bottom: 64px;
     }
     p {
-      margin-top: 40px;
-      max-height: 50vh;
-      overflow-y: scroll;
-    }
-    p::-webkit-scrollbar {
-    display: none;
+      margin: 40px auto 50px;
     }
   }
 }
