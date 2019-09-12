@@ -2,14 +2,27 @@
   .guide-request {
     display: flex;
     flex-direction: column;
+    margin-bottom: 122px;
     input {
-      height: 48px;
+      height: 46px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      box-shadow: none;
+    }
+    label {
+      margin-bottom: 10px;
     }
   }
 
   .text {
+    padding: 1px 1px 1px 14px;
+    font-size: 16px;
   }
   .submit {
-    height: 48px;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 10px 4px;
+    background: #18273A;
+    color: #FFFFFF;
   }
 }
