@@ -1,8 +1,14 @@
 #contact-section {
   background:
-    url(stickers/gommette_1.svg) 110% 50% / 16rem no-repeat;
+    url(pages-contact/gommette_contact_2.svg) 100% 50% / 8rem no-repeat;
   hr {
     margin: 17px 0px;
+    opacity: 0.5;
+    border: solid 0.5px rgba(0,0,0,0.1);
+  }
+  a {
+    text-decoration: none;
+    color: initial;
   }
   h1 {
     margin-top: 4px;
@@ -31,24 +37,51 @@
     max-width: 500px;
     margin: 0px auto;
   }
-  .cat-conatct {
+  p.cat-contact {
     opacity: 0.5;
+    margin: 0px !important;
+  }
+  p {
+    margin: 0px !important;
+  }
+  .contact-content > p:last-child {
+    margin-bottom: 51px !important;
   }
 
 }
 
 .navbarseethrough.in-contact {
-    z-index: 2;
-    background:
-    url(stickers/gommette_1.svg) 50% 105% / 16rem no-repeat;
   img {
     margin: 23.5px;
   }
+}
 
+.gommette-pages-img {
+  position: absolute;
+  left: calc(50% - 250px);
 }
 
 @media (max-width: 1024px) {
   .coq-wrapper {
     display: none;
+  }
+  .gommette-pages-img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .coq-wrapper {
+    display: none;
+  }
+  .contact-content {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact-section {
+    background: #FFFFFF !important;
   }
 }

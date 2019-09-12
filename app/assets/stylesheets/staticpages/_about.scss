@@ -115,7 +115,9 @@
 }
 
 .navbarseethrough.in-about {
-  margin: 23.5px;
+  img {
+    margin: 23.5px;
+  }
 }
 
 @media (max-width: 1250px) {
