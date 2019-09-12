@@ -11,6 +11,7 @@
 }
 
 #homegrid {
+  overflow: hidden;
 	display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: auto;
@@ -166,16 +167,29 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+  position: relative;
+  .canard {
+    position: absolute;
+    width: 10rem;
+    left: -5rem;
+    bottom: 0;
+  }
 }
 
-#section6A {
+#section6A {
   grid-area: secsixA;
-  background-color: red;
-  #coq {
+  position: relative;
+  .coq {
     height: 30rem;
     position: absolute;
     left: 0;
     bottom: 5%;
+  }
+  .gommette {
+    height: 20rem;
+    position: absolute;
+    left: 70%;
+    bottom: 47%;
   }
 }
 
@@ -217,26 +231,49 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+  position: relative;
+  .poussin {
+    height: 8rem;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+  }
+  .gommette {
+    height: 40rem;
+    position: absolute;
+    right: -15%;
+    bottom: -60%;
+    z-index: 20;
+  }
 }
 #section8 {
-	padding: 80px 50px;
+	padding: 20px 50px;
 	grid-area: seceight;
-	.content {
-		position: relative;
-		display: flex;
-		height: 196px;
-		width: 60%;
-		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		background-color: white;
-	}
-	img {
-		height: 88px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+	.sapins{
+		height: 10rem;
 		position: absolute;
-		top: -44px;
+		bottom: 0;
+    right: 5%;
 	}
+  .gommette{
+    height: 30rem;
+    position: absolute;
+    left: -5%;
+    bottom: 30%;
+  }
+  .cadre{
+    height: 20rem;
+    margin: 80px auto 100px auto
+  }
+  .ensemble{
+    height: 15rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 
