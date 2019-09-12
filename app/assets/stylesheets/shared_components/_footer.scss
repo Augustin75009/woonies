@@ -102,6 +102,19 @@ footer {
 
 
 @media (max-width: 728px) {
+  .internal-links {
+    margin-top: 20px;
+  }
+  .external-links {
+    margin: 20px auto;
+  }
+  .footer-bottom {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .footer-top {
+    padding: 27px 24px 24px 24px !important;
+  }
   .footer-logo-right {
     display: none !important;
   }
@@ -113,10 +126,24 @@ footer {
       margin-left: 0px !important; //to be changed to 0px for final version
     }
   }
-  .copyrights {
-    margin-left: 40px;
+  .footer-bottom .links > div > ul > li {
+    text-align: center;
   }
 }
 
+@media (max-width: 400px) {
+  .footer-bottom .links > div > ul > li {
+    margin-right: 4px;
+  }
+  .footer-top {
+    flex-direction: column;
+  }
+  .footer-content {
+    margin-top: 24px;
+    div:first-child {
+      text-align: center;
+    }
+  }
+}
 
 // end
