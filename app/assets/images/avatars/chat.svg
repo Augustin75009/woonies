@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="175px" viewBox="0 0 147 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Chat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Avatars" transform="translate(-360.000000, -376.000000)" fill-rule="nonzero">
+            <g id="Chat" transform="translate(330.000000, 356.000000)">
+                <g id="Group-22" transform="translate(0.000000, 1.598361)">
+                    <polygon id="Triangle-Copy" fill="#9B9B9B" transform="translate(51.525131, 49.048599) rotate(-30.000000) translate(-51.525131, -49.048599) " points="51.4669008 15.4488849 91.5441823 82.6483128 11.5060803 82.5789908"></polygon>
+                    <polygon id="Triangle-Copy" fill="#FFCFC5" transform="translate(54.708649, 52.244634) rotate(-30.000000) translate(-54.708649, -52.244634) " points="54.6836929 37.8452513 70.7162692 66.6440158 38.7010285 66.616287"></polygon>
+                </g>
+                <g id="Group-22-Copy" transform="translate(152.949219, 49.549180) scale(-1, 1) translate(-152.949219, -49.549180) translate(100.898438, 0.000000)">
+                    <polygon id="Triangle-Copy" fill="#9B9B9B" transform="translate(51.525131, 49.048599) rotate(-30.000000) translate(-51.525131, -49.048599) " points="51.4669008 15.4488849 91.5441823 82.6483128 11.5060803 82.5789908"></polygon>
+                    <polygon id="Triangle-Copy" fill="#FFCFC5" transform="translate(55.206557, 54.015130) rotate(-30.000000) translate(-55.206557, -54.015130) " points="55.1816013 39.6157477 71.2141776 68.4145122 39.1989368 68.3867834"></polygon>
+                </g>
+                <g id="Group-21-Copy" transform="translate(30.429688, 49.549180)">
+                    <g id="Group-18-Copy">
+                        <g id="Group-16" fill="#9B9B9B">
+                            <ellipse id="Oval" cx="72.8710938" cy="72.7254098" rx="72.8710938" ry="72.7254098"></ellipse>
+                        </g>
+                        <g id="Group-Copy" transform="translate(38.437500, 36.762295)" fill="#18273A">
+                            <g id="Group-17" transform="translate(0.000000, 0.319672)">
+                                <ellipse id="Oval-Copy-9" cx="8.6484375" cy="8.63114754" rx="7.77291667" ry="7.75737705"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Group-Copy-3" transform="translate(86.484375, 36.762295)" fill="#18273A">
+                            <g id="Group-17" transform="translate(0.000000, 0.319672)">
+                                <ellipse id="Oval-Copy-9" cx="8.6484375" cy="8.63114754" rx="7.77291667" ry="7.75737705"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <polygon id="Triangle-Copy" fill="#FFCFC5" transform="translate(102.500000, 124.672131) rotate(-180.000000) translate(-102.500000, -124.672131) " points="102.5 113.483607 116.914062 135.860656 88.0859375 135.860656"></polygon>
+                <path d="M83.28125,150.245902 L121.71875,150.245902 L121.71875,150.245902 C121.71875,159.956154 113.847035,167.827869 104.136783,167.827869 L100.863217,167.827869 C91.1529648,167.827869 83.28125,159.956154 83.28125,150.245902 Z" id="Rectangle" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

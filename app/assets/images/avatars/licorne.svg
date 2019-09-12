@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="190px" viewBox="0 0 147 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Licorne</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="72.8" cy="72.8636364" rx="72.8" ry="72.8636364"></ellipse>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Avatars" transform="translate(-824.000000, -358.000000)">
+            <g id="Licorne" transform="translate(810.000000, 358.000000)">
+                <g id="Group-16" transform="translate(14.400000, 44.272727)">
+                    <ellipse id="Oval" fill="#F0F0F0" fill-rule="nonzero" cx="72.8" cy="72.8636364" rx="72.8" ry="72.8636364"></ellipse>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval" fill="#F0F0F0" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <ellipse id="Oval-Copy-14" fill="#FFCFC5" fill-rule="nonzero" mask="url(#mask-2)" cx="72" cy="145.727273" rx="60.8" ry="38.4335664"></ellipse>
+                </g>
+                <path d="M149.952013,30.1504363 L165.443897,78.4194337 L122.234456,78.4357852 L137.765549,30.1466894 C138.847782,26.7818228 142.452869,24.9313827 145.817736,26.0136158 C147.782149,26.6454247 149.321412,28.185635 149.952013,30.1504363 Z" id="Triangle-Copy-4" fill="#F0F0F0" fill-rule="nonzero" transform="translate(143.839176, 52.070154) scale(-1, 1) rotate(-30.000000) translate(-143.839176, -52.070154) "></path>
+                <path d="M38.3633072,30.1504363 L53.8551908,78.4194337 L10.6457502,78.4357852 L26.1768434,30.1466894 C27.2590765,26.7818228 30.8641631,24.9313827 34.2290297,26.0136158 C36.1934428,26.6454247 37.7327063,28.185635 38.3633072,30.1504363 Z" id="Triangle-Copy-5" fill="#F0F0F0" fill-rule="nonzero" transform="translate(32.250471, 52.070154) rotate(-30.000000) translate(-32.250471, -52.070154) "></path>
+                <path d="M92.732372,5.61113217 L102.926175,75.1750865 C103.43866,78.6723589 101.019012,81.9229099 97.5217394,82.4353952 C97.2144775,82.4804209 96.904346,82.5030233 96.5938026,82.5030233 L76.2061974,82.5030233 C72.6715749,82.5030233 69.8061973,79.6376457 69.8061973,76.1030232 C69.8061973,75.7924799 69.8287997,75.4823483 69.8738254,75.1750865 L80.067628,5.61113217 C80.5801134,2.1138597 83.8306643,-0.305788356 87.3279368,0.206696962 C90.1254203,0.61663621 92.3224327,2.81364862 92.732372,5.61113217 Z" id="Triangle-Copy-3" fill="#FFCFC5" fill-rule="nonzero"></path>
+                <ellipse id="Oval-Copy-9" fill="#18273A" fill-rule="nonzero" cx="50.9653333" cy="106.812681" rx="7.76533333" ry="7.77212121"></ellipse>
+                <ellipse id="Oval-Copy-9" fill="#18273A" fill-rule="nonzero" cx="122.965333" cy="108.414079" rx="7.76533333" ry="7.77212121"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
