@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="163px" viewBox="0 0 166 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Ours</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Avatars" transform="translate(-128.000000, -139.000000)" fill-rule="nonzero">
+            <g id="Ours" transform="translate(128.000000, 139.000000)">
+                <g id="Group-18">
+                    <g id="Group-16">
+                        <ellipse id="Oval-Copy-4" fill="#9D4C1F" cx="31.9230769" cy="31.9607843" rx="31.9230769" ry="31.9607843"></ellipse>
+                        <g id="Group-24" transform="translate(102.153846, 0.000000)">
+                            <ellipse id="Oval-Copy-5" fill="#9D4C1F" cx="31.9230769" cy="31.9607843" rx="31.9230769" ry="31.9607843"></ellipse>
+                            <ellipse id="Oval-Copy-6" fill="#FFD07C" cx="30.3269231" cy="35.1568627" rx="19.1538462" ry="19.1764706"></ellipse>
+                        </g>
+                        <ellipse id="Oval-Copy-4" fill="#FFD07C" cx="35.1153846" cy="36.754902" rx="19.1538462" ry="19.1764706"></ellipse>
+                        <ellipse id="Oval" fill="#9D4C1F" cx="83.7980769" cy="90.2892157" rx="72.625" ry="72.7107843"></ellipse>
+                        <ellipse id="Oval-Copy-7" fill="#CBB57A" cx="83" cy="117.455882" rx="36.7115385" ry="34.3578431"></ellipse>
+                        <ellipse id="Oval-Copy-8" fill="#18273A" cx="82.2019231" cy="101.47549" rx="11.9711538" ry="11.9852941"></ellipse>
+                    </g>
+                    <g id="Group-Copy" transform="translate(49.480769, 54.333333)" fill="#18273A">
+                        <g id="Group-17" transform="translate(0.000000, 0.319608)">
+                            <ellipse id="Oval-Copy-9" cx="8.61923077" cy="8.62941176" rx="7.74666667" ry="7.75581699"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-Copy-3" transform="translate(98.961538, 55.931373)" fill="#18273A">
+                        <g id="Group-17" transform="translate(0.000000, 0.319608)">
+                            <ellipse id="Oval-Copy-9" cx="7.74666667" cy="7.75581699" rx="7.74666667" ry="7.75581699"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <path d="M63.8461538,123.04902 L102.153846,123.04902 L102.153846,123.04902 C102.153846,132.757319 94.2837144,140.627451 84.5754148,140.627451 L81.4245852,140.627451 C71.7162856,140.627451 63.8461538,132.757319 63.8461538,123.04902 Z" id="Rectangle" fill="#FFCFC5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

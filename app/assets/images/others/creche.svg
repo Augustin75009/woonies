@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Crèche</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Décors" transform="translate(-968.000000, -231.000000)">
+            <g id="Crèche" transform="translate(968.000000, 231.000000)">
+                <polygon id="Fill-1" fill="#A0DBD6" points="14.4 96 81.6 96 81.6 43.2 14.4 43.2"></polygon>
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="33.6" y="55.2" width="28.8" height="28.8" rx="14.4"></rect>
+                <polygon id="Fill-2" fill="#6EBEB4" points="0 43.2 96 43.2 48 0"></polygon>
+                <polygon id="Fill-3-Copy" fill="#18273A" points="69.6 19.2 88.8 19.2 88.8 0 69.6 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
