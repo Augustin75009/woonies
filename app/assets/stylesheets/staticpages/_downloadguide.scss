@@ -7,7 +7,7 @@
       height: 46px;
       border-radius: 8px;
       margin-bottom: 10px;
-      box-shadow: none;
+      border-style: groove;
     }
     label {
       margin-bottom: 10px;
@@ -21,7 +21,7 @@
   .submit {
     font-size: 16px;
     font-weight: 800;
-    padding: 10px 4px;
+    padding: 12px 4px;
     background: #18273A;
     color: #FFFFFF;
   }
