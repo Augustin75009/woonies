@@ -133,10 +133,10 @@ html {
 }
 
 /* Scaling down fonts for responsivity */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   html { font-size: 14px; }
 }
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   html { font-size: 12px; }
 }
 
