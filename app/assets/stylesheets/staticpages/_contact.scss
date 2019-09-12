@@ -1,4 +1,6 @@
 #contact-section {
+  background:
+    url(stickers/gommette_1.svg) 110% 50% / 16rem no-repeat;
   hr {
     margin: 17px 0px;
   }
@@ -31,5 +33,22 @@
   }
   .cat-conatct {
     opacity: 0.5;
+  }
+
+}
+
+.navbarseethrough.in-contact {
+    z-index: 2;
+    background:
+    url(stickers/gommette_1.svg) 50% 105% / 16rem no-repeat;
+  img {
+    margin: 23.5px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .coq-wrapper {
+    display: none;
   }
 }
