@@ -1,0 +1,29 @@
+.navbardarkblue {
+  background: #18273A;
+  height: 80px;
+  img {
+    margin: 26px;
+  }
+}
+
+#cgu-section {
+  background: url(stickers/gommette_2.svg) -20px 20% / 10rem no-repeat;
+  .cgu-container {
+    min-height: calc(100vh - 300px);
+    margin: 33px auto;
+    max-width: 925px;
+    padding: 0px 40px;
+    h1 {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+    p {
+      margin-top: 40px;
+      max-height: 50vh;
+      overflow-y: scroll;
+    }
+    p::-webkit-scrollbar {
+    display: none;
+    }
+  }
+}
