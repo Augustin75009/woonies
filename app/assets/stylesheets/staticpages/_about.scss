@@ -11,7 +11,7 @@
   .history {
     padding: 114px 160px 158px 160px;
     background:
-    url(others/ensemble_sapin.svg) 100% 100% / 30rem no-repeat,
+    url(others/ensemble_sapin.svg) calc(100% + 100px) 100% / 40rem no-repeat,
     url(animals/poussin_blanc.svg) 100px 100% / 4rem no-repeat,
     url(animals/poussin_blanc.svg) 180px 100% / 4rem no-repeat,
     url(others/ensemble_3.svg) 300px 100% / 16rem no-repeat;
@@ -24,8 +24,8 @@
   .mission {
     padding: 34px 160px 64px 160px;
     background:
-    url(animals/canard_rose.svg) calc(20%) 30% / 12rem no-repeat,
-    url(stickers/gommette_1.svg) -80px 50% / 25rem no-repeat;
+    url(animals/canard_rose.svg) calc(20%) 30% / 16rem no-repeat,
+    url(pages-about/gommette_mission.svg) 20px 50% / 25rem no-repeat;
     background-color: #FFFFFF;
     div {
       max-width: 665px;
@@ -55,8 +55,8 @@
   .founders {
     padding: 33px 160px 48px 160px;
     background:
-    url(stickers/gommette_2.svg) -10px 90% / 12rem no-repeat,
-    url(stickers/gommette_4.svg) 102% 40% / 16rem no-repeat;
+    url(pages-about/gommette_founders_2.svg) 0px 95% / 10rem no-repeat,
+    url(pages-about/gommette_founders.svg) 100% 20% / 10rem no-repeat;
     background-color: #FFFFFF;
     div {
       display: flex;
@@ -101,8 +101,8 @@
 
   .about-bottom {
     background:
-    url(others/petit_sapin_bleu.svg) 85% 100% / 4rem no-repeat,
-    url(others/petit_sapin_jaune.svg) 90% 100% / 4rem no-repeat,
+    url(others/petit_sapin_jaune.svg) 85% 100% / 4rem no-repeat,
+    url(others/petit_sapin_bleu.svg) calc(85% + 80px) 100% / 5rem no-repeat,
     url(others/ensemble_4.svg) 0px 100% / 16rem no-repeat;
     background-color: #E6F5FA;
     div {
@@ -115,13 +115,18 @@
 }
 
 .navbarseethrough.in-about {
-  margin: 23.5px;
+  img {
+    margin: 23.5px;
+  }
 }
 
 @media (max-width: 1250px) {
+  .flex-left, .flex-right {
+    padding: 0px 80px !important;
+  }
   .mission {
     background:
-    url(stickers/gommette_1.svg) -100px 50% / 25rem no-repeat !important;
+    url(pages-about/gommette_mission.svg) -100px 50% / 25rem no-repeat !important;
   }
 }
 
@@ -131,7 +136,14 @@
   }
   .mission {
     background:
-    url(stickers/gommette_1.svg) -200px 50% / 25rem no-repeat !important;
+    url(pages-about/gommette_mission.svg) -200px 50% / 25rem no-repeat !important;
+  }
+  .history {
+    background:
+    url(others/ensemble_sapin.svg) calc(100% + 100px) 100% / 40rem no-repeat,
+    url(animals/poussin_blanc.svg) 100px 100% / 4rem no-repeat,
+    url(animals/poussin_blanc.svg) 180px 100% / 4rem no-repeat !important;
+    background-color: #E6F5FA !important;
   }
 }
 
@@ -141,7 +153,10 @@
   }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
+  .values-wrapper > div {
+    width: calc(100% - 53px) !important;
+  }
   .about-bottom > div > img {
     width: 75%;
   }
@@ -153,5 +168,20 @@
 
   .flex-left, .flex-right {
     padding: 0px !important;
+    flex-direction: column !important;
+  }
+  .founders-avatar {
+    margin-left: 0px !important;
+
+  }
+}
+
+@media (max-width: 425px) {
+  .founders, .values, .history, .mission {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+  }
+  .catch-phrase {
+    margin-bottom: 24px !important;
   }
 }

@@ -7,20 +7,21 @@
       <div class="footer-content-woonies">
         <h1>Woonies</h1>
         <ul>
-          <li><%= link_to "À propos", root_path %></li>
-          <li><%= link_to "Contact", root_path %></li>
+          <li><%= link_to "À propos", pages_about_path %></li>
+          <li><%= link_to "Contact", pages_contact_path %></li>
         </ul>
       </div>
       <div class="footer-content-ressources">
         <h1>Ressources</h1>
         <ul>
-          <li><%= link_to "Guide des modes de garde", root_path %></li>
+          <li><%= link_to "Guide des modes de garde", pages_guide_path %></li>
           <li><%= link_to "Le blog Woonies", root_path %></li>
         </ul>
       </div>
     </div>
     <div class="footer-logo-right">
-      <%= image_tag "animals/footer-birds.png", height: 53 %>
+      <%= image_tag "animals/poussin_blanc.svg", height: 53 %>
+      <%= image_tag "animals/poussin_blanc.svg", height: 53 %>
     </div>
   </div>
   <div class="footer-bottom">
@@ -31,14 +32,14 @@
       <div class="internal-links">
         <ul>
           <li><%= link_to "Utilisation des cookies", root_path %></li>
-          <li><%= link_to "Conditions d'utilisation", root_path %></li>
-          <li><%= link_to "Mentions légales", root_path %></li>
+          <li><%= link_to "Conditions d'utilisation", pages_CGU_path %></li>
+          <li><%= link_to "Mentions légales", pages_legals_path %></li>
         </ul>
       </div>
       <div class="external-links">
         <ul>
           <li>
-            <%= link_to(root_path) do %>
+            <%= link_to("https://www.facebook.com/Woonies/") do %>
               <%= image_tag "social_networks/Facebook.svg", height: 24 %>
             <% end %>
           </li>

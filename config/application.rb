@@ -9,6 +9,9 @@ Bundler.require(*Rails.groups)
 module Woonies
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.sass.preferred_syntax = :scss
+    config.sass.line_comments = false
+    config.sass.cache = false
     config.load_defaults 6.0
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
