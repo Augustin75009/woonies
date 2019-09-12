@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="334px" viewBox="0 0 128 334" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 23</title>
+    <desc>Created with Sketch.</desc>
+    <g id="FOOTER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-page---Parents-/-Pro-Copy" transform="translate(0.000000, -2593.000000)">
+            <g id="Group-23" transform="translate(0.000000, 2593.000000)">
+                <polygon id="Fill-6" fill="#FFCFC5" transform="translate(115.014263, 75.938031) rotate(-243.000000) translate(-115.014263, -75.938031) " points="90.5549682 90.30876 98.0071832 98.2835193 139.473559 61.5673021 132.020123 53.5925428"></polygon>
+                <polygon id="Fill-10" fill="#22693D" transform="translate(62.290119, 161.894600) scale(1, -1) rotate(243.000000) translate(-62.290119, -161.894600) " points="81.0908969 143.616139 86.5282718 152.245996 43.4887843 180.17306 38.0519656 171.543204"></polygon>
+                <path d="M58,18 C58,27.9412315 49.940765,36 39.9996995,36 C30.058634,36 22,27.9412315 22,18 C22,8.05876853 30.058634,0 39.9996995,0 C49.940765,0 58,8.05876853 58,18" id="Fill-19" fill="#AEE9F9"></path>
+                <path d="M36,316 C36,325.941231 27.941366,334 18.0003005,334 C8.05923502,334 0,325.941231 0,316 C0,306.058769 8.05923502,298 18.0003005,298 C27.941366,298 36,306.058769 36,316" id="Fill-13" fill="#FFD07C"></path>
+            </g>
+        </g>
+    </g>
+</svg>
