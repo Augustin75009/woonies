@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="155px" height="144px" viewBox="0 0 155 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Canard Blanc</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Animaux" transform="translate(-570.000000, -271.000000)" fill-rule="nonzero">
+            <g id="Canard-Blanc" transform="translate(570.000000, 271.000000)">
+                <path d="M128.769231,26.4 L128.769231,79.2 C128.769231,114.988052 99.9432566,144 64.3846154,144 C28.8259742,144 -2.84217094e-14,114.988052 -2.84217094e-14,79.2 L76.3076923,79.2 L76.3076923,26.4 C76.3076923,11.8196826 88.0516077,1.42108547e-14 102.538462,1.42108547e-14 C117.025315,1.42108547e-14 128.769231,11.8196826 128.769231,26.4 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <polygon id="Oval-Copy-2" fill="#FFD07C" transform="translate(141.884615, 39.600000) rotate(-180.000000) translate(-141.884615, -39.600000) " points="155 26.4 128.769231 52.8 155 52.8"></polygon>
+                <polygon id="Oval-Copy-3" fill="#22693D" transform="translate(50.076923, 79.200000) rotate(-270.000000) translate(-50.076923, -79.200000) " points="76.4769231 52.9692308 23.6769231 105.430769 76.4769231 105.430769"></polygon>
+                <ellipse id="Oval" fill="#18273A" cx="109.692308" cy="26.4" rx="7.15384615" ry="7.2"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

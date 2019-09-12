@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="163px" viewBox="0 0 166 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Souris</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Avatars" transform="translate(-813.000000, -139.000000)" fill-rule="nonzero">
+            <g id="Souris" transform="translate(813.000000, 139.000000)">
+                <ellipse id="Oval-Copy-4" fill="#9B9B9B" cx="31.9230769" cy="31.9607843" rx="31.9230769" ry="31.9607843"></ellipse>
+                <ellipse id="Oval-Copy-5" fill="#9B9B9B" cx="134.076923" cy="31.9607843" rx="31.9230769" ry="31.9607843"></ellipse>
+                <ellipse id="Oval" fill="#BFBFBF" cx="83.7980769" cy="90.2892157" rx="72.625" ry="72.7107843"></ellipse>
+                <ellipse id="Oval-Copy-9" fill="#18273A" cx="60.4197436" cy="63.6871895" rx="7.74666667" ry="7.75581699"></ellipse>
+                <ellipse id="Oval-Copy-9" fill="#18273A" cx="108.304359" cy="63.6871895" rx="7.74666667" ry="7.75581699"></ellipse>
+                <path d="M54.2692308,115.527582 L114.923077,115.527582 L114.923077,115.527582 C114.923077,130.531317 102.760146,142.694248 87.7564103,142.694248 L81.4358974,142.694248 C66.4321617,142.694248 54.2692308,130.531317 54.2692308,115.527582 Z" id="Rectangle-Copy-5" fill="#FFFFFF"></path>
+                <polygon id="Triangle-Copy-2" fill="#FFCFC5" transform="translate(84.596154, 95.882353) rotate(-180.000000) translate(-84.596154, -95.882353) " points="84.5961538 81.5 103.75 110.264706 65.4423077 110.264706"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

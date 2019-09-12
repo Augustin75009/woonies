@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="144px" viewBox="0 0 156 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Canard Rose</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Animaux" transform="translate(-64.000000, -310.000000)" fill-rule="nonzero">
+            <g id="Canard-Rose" transform="translate(64.000000, 310.000000)">
+                <path d="M129.6,26.4 L129.6,79.2 C129.6,114.988052 100.588052,144 64.8,144 C29.0119482,144 -2.84217094e-14,114.988052 -2.84217094e-14,79.2 L76.8,79.2 L76.8,26.4 C76.8,11.8196826 88.6196826,1.42108547e-14 103.2,1.42108547e-14 C117.780317,1.42108547e-14 129.6,11.8196826 129.6,26.4 Z" id="Combined-Shape" fill="#FFF5F3"></path>
+                <polygon id="Oval-Copy-2" fill="#FFD07C" transform="translate(142.800000, 39.600000) rotate(-180.000000) translate(-142.800000, -39.600000) " points="156 26.4 129.6 52.8 156 52.8"></polygon>
+                <polygon id="Oval-Copy-3" fill="#FFCFC5" transform="translate(50.400000, 79.200000) rotate(-270.000000) translate(-50.400000, -79.200000) " points="76.8 52.8 24 105.6 76.8 105.6"></polygon>
+                <circle id="Oval" fill="#18273A" cx="110.4" cy="26.4" r="7.2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
