@@ -198,8 +198,8 @@
   }
 
   .history, .mission, .values, .founders {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
   }
 
   .flex-left, .flex-right {
@@ -209,12 +209,21 @@
 }
 
 @media (max-width: 425px) {
+  .navbarseethrough.in-about {
+    img {
+      height: 30px;
+      margin: 15px;
+    }
+  }
+  .history {
+    padding-top: 40px;
+  }
   .about-bottom > div > img {
     width: 90%;
   }
   .founders, .values, .history, .mission {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
   .catch-phrase {
     margin-bottom: 24px;

@@ -455,7 +455,7 @@
     background-color: #FFE1DC;
   }
   #section1B {
-    padding: 60px 30px 80px 30px;
+    padding: 60px 24px 80px 24px;
     background:
       url(others/ensemble_5.svg) 2% 100% / 6rem no-repeat,
       url(others/half_blue.svg) calc(2% + 6rem) 100% / 6rem no-repeat,
@@ -470,13 +470,13 @@
     }
   }
   #section2A {
-    padding: 30px;
+    padding: 24px;
     background: url(stickers/gommette_1.svg) -40% 5%/ 15rem no-repeat;
   }
 
   #section2B {
     font-size: 0.8rem;
-    padding: 0 30px 20px;
+    padding: 0 24px 20px;
     h2 {
       margin-top: 0;
     }
@@ -503,7 +503,7 @@
   }
   #section4 {
     font-size: 0.6rem;
-    padding: 10px 30px;
+    padding: 10px 24px;
     background:
       url(animals/poussin_blanc.svg) 2%  100% / 2rem no-repeat,
       url(animals/poussin_blanc.svg) calc(2% + 3rem) 100% / 2rem no-repeat;
@@ -511,7 +511,7 @@
   }
   #section5A {
     font-size: 0.8rem;
-    padding: 40px 30px;
+    padding: 40px 24px;
   }
   #section5B {
     height: 150px;
@@ -524,11 +524,11 @@
   }
   #section6B {
     font-size: 0.8rem;
-    padding: 50px 30px 50px 30px;
+    padding: 50px 24px 50px 24px;
   }
   #section7A {
     font-size: 0.8rem;
-    padding: 50px 30px 50px 30px;
+    padding: 50px 24px 50px 24px;
   }
   #section7B {
     font-size: 0.8rem;
@@ -549,6 +549,7 @@
     }
     .cadre{
       margin: 30px auto;
+      width: 90%;
     }
     .ensemble{
       height: 10rem;

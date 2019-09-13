@@ -134,10 +134,10 @@ html {
 
 /* Scaling down fonts for responsivity */
 @media (max-width: 1024px) {
-  html { font-size: 14px; }
+  html { font-size: 16px; }
 }
 @media (max-width: 550px) {
-  html { font-size: 12px; }
+  html { font-size: 14px; }
 }
 
 /* Modules will scale with document */
@@ -147,8 +147,8 @@ html {
 
 /* Type will scale with modules */
 p {
-    font-size: 1em;
-    line-height: calc(1em + 10px);
+    font-size: 1.2em;
+    line-height: calc(1.2em + 10px);
 }
 h1 {
   font-size: 3em;
