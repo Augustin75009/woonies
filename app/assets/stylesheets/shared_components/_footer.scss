@@ -137,6 +137,9 @@ footer {
 }
 
 @media (max-width: 425px) {
+  .footer-content-woonies {
+    text-align: center;
+  }
   .footer-bottom .links > div > ul > li {
     margin-right: 4px;
   }
