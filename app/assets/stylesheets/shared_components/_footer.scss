@@ -36,7 +36,7 @@ footer {
   div {
     display: flex;
     flex-direction: column;
-    h1 {
+    h2 {
       margin: 6px 0px;
       font-size: 14px;
       color: #FFCFC5;
@@ -98,7 +98,7 @@ footer {
   .external-links {
     flex: 1;
     ul {
-      margin-left: 0px !important; //to be changed to 0px for final version
+      margin-left: 0px; //to be changed to 0px for final version
       color: #18273A;
       opacity: 0.5;
     }
@@ -118,17 +118,17 @@ footer {
     flex-direction: column-reverse;
   }
   .footer-top {
-    padding: 27px 24px 24px 24px !important;
+    padding: 27px 24px 24px 24px;
   }
   .footer-logo-right {
-    display: none !important;
+    display: none;
   }
   .links {
     flex-direction: column;
   }
   .internal-links {
     p {
-      margin-left: 0px !important; //to be changed to 0px for final version
+      margin-left: 0px; //to be changed to 0px for final version
     }
   }
   .footer-bottom .links > div > ul > li {
@@ -145,9 +145,6 @@ footer {
   }
   .footer-content {
     margin-top: 24px;
-    div:first-child {
-      // text-align: center;
-    }
   }
 }
 

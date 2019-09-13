@@ -27,7 +27,7 @@
   }
 
   .coq-container {
-    padding-top: 0px !important;
+    padding-top: 0px;
     height: 80%;
     width: 100%;
     background: url(animals/coq.svg) 0px 60% / contain no-repeat;
@@ -41,13 +41,13 @@
   }
   p.cat-contact {
     opacity: 0.5;
-    margin: 0px !important;
+    margin: 0px;
   }
   p {
-    margin: 0px !important;
+    margin: 0px;
   }
   .contact-content > p:last-child {
-    margin-bottom: 51px !important;
+    margin-bottom: 51px;
   }
 
 }
@@ -77,21 +77,21 @@
     display: none;
   }
   .contact-content {
-    padding-right: 20px !important;
-    padding-left: 20px !important;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
 @media (max-width: 768px) {
   #contact-section {
-    background: #FFFFFF !important;
+    background: #FFFFFF;
   }
 }
 
 @media (max-width: 425px) {
   .contact-content {
     img {
-      height: 120px !important;
+      height: 120px;
     }
   }
 }
