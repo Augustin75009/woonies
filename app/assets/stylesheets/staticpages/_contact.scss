@@ -13,14 +13,6 @@
   h1 {
     margin-top: 4px;
   }
-  .contact-wrapper {
-    display: flex;
-    flex-direction: row;
-    div {
-      padding-top: 145px;
-      min-height: calc(100vh - 358px);
-    }
-  }
   .coq-wrapper {
     width: 50%;
     background-color: #F9F9F9;
@@ -50,6 +42,15 @@
     margin-bottom: 51px;
   }
 
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  div {
+    padding-top: 145px;
+    min-height: calc(100vh - 358px);
+  }
 }
 
 .navbarseethrough.in-contact {
@@ -89,9 +90,20 @@
 }
 
 @media (max-width: 425px) {
+  .navbarseethrough.in-contact {
+    img {
+      height: 30px;
+      margin: 15px;
+    }
+  }
   .contact-content {
     img {
       height: 120px;
+    }
+  }
+  .contact-wrapper {
+    div {
+      padding-top: 80px;
     }
   }
 }

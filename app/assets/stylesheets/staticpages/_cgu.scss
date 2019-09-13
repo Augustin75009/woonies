@@ -8,17 +8,30 @@
 
 #cgu-section {
   background: url(stickers/gommette_2.svg) -20px 20% / 10rem no-repeat;
+}
+.cgu-container {
+  min-height: calc(100vh - 80px);
+  margin: 33px auto;
+  max-width: 925px;
+  padding: 0px 40px;
+  h1 {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  p {
+    margin: 40px auto 50px;
+  }
+}
+
+@media (max-width: 425px) {
   .cgu-container {
-    min-height: calc(100vh - 80px);
-    margin: 33px auto;
-    max-width: 925px;
-    padding: 0px 40px;
-    h1 {
-      text-align: center;
-      margin-bottom: 64px;
-    }
-    p {
-      margin: 40px auto 50px;
+    padding: 0px 24px;
+  }
+  .navbardarkblue {
+    height: 60px;
+    img {
+      height: 30px;
+      margin: 15px;
     }
   }
 }

@@ -209,6 +209,15 @@
 }
 
 @media (max-width: 425px) {
+  .navbarseethrough.in-about {
+    img {
+      height: 30px;
+      margin: 15px;
+    }
+  }
+  .history {
+    padding-top: 40px;
+  }
   .about-bottom > div > img {
     width: 90%;
   }
