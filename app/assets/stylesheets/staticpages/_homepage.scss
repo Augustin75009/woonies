@@ -455,7 +455,7 @@
     background-color: #FFE1DC;
   }
   #section1B {
-    padding: 60px 24px 80px 24px;
+    padding: 60px 24px 60px 24px;
     background:
       url(others/ensemble_5.svg) 2% 100% / 6rem no-repeat,
       url(others/half_blue.svg) calc(2% + 6rem) 100% / 6rem no-repeat,
@@ -481,7 +481,8 @@
     }
     p {
       text-align: left;
-      margin: 0 20px;
+      margin: 0 10px 0 0;
+      line-height: 20px;
     }
     a {
       padding: 10px;
