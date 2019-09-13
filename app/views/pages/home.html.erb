@@ -10,8 +10,11 @@
 			<h3 class="semibold"><div class="linepink">Professionnels</div></h3>
 			<h2>Pré-inscrivez-vous !</h2>
 			<p class="light">Vous pourrez ainsi <span class="semibold">créer votre profil professionel en avant première</span> et être les premiers alertés du lancement !</p>
-			<form class="form-inline-bw" action="#">
+			<form class="form-inline-bw" action="https://api.mailjet.com/v3/REST/contactslist/
+10247432/managecontact" method="POST">
 				<label for="email" hidden></label>
+        <input type="hidden" name="MJ_APIKEY_PUBLIC" value="9ed5d963b51a0a61b17377775f52b836">
+        <input type="hidden" name="MJ_APIKEY_PRIVATE" value="d6101f0176ca3eb8780eafc27540a5d0">
 				<input type="email" placeholder="Adresse e-mail" name="email">
 				<button>
 					<div class="spacearoundflex">valider <%= image_tag "others/arrow_right_white.svg"%></div>
@@ -35,7 +38,7 @@
 			<div id="subsection1B">
 				<%= image_tag "pictures/guide_garde.png" %>
 				<div>
-					<p class="white">Percez les secrets des modes de <br> garde : découvrez notre blog !</p>
+					<p class="white">Percez les secrets des modes de garde : découvrez notre blog !</p>
 					<a href="http://blog.woonies.com/" target='blank'>blog.woonies.com</a>
 				</div>
 			</div>
