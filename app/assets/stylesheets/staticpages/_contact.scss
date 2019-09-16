@@ -15,6 +15,7 @@
     margin-top: 4px;
   }
   .coq-wrapper {
+    padding-top: 145px;
     width: 38%;
     background-color: #F9F9F9;
   }
@@ -26,12 +27,6 @@
     background: url(animals/coq.svg) 0px 60% / contain no-repeat;
   }
 
-  .contact-content {
-    padding-right: 20px;
-    padding-left: 20px;
-    max-width: 570px;
-    margin: 0px auto;
-  }
   p.cat-contact {
     opacity: 0.5;
     margin: 0px;
@@ -42,14 +37,46 @@
   .contact-content > p:last-child {
     margin-bottom: 51px;
   }
+}
 
+.title-absolute-top {
+  position: absolute; top:160px
+}
+.title-absolute-bottom {
+  position: absolute; top:180px
+}
+
+.contact-content {
+  padding-right: 0px;
+  padding-left: 0px;
+  max-width: 620px;
+  margin: 0px auto 40px;
+}
+
+.contact-content {
+  display: flex;
+  position: relative;
+}
+
+.contact-content.guide {
+  display: block;
+  position: relative;
+  padding-top: 145px;
+}
+
+.content-right {
+  padding-top: 245px;
+  margin-left: 20px;
+}
+.content-left {
+  padding-top: 245px;
 }
 
 .contact-wrapper {
   display: flex;
   flex-direction: row;
   div {
-    padding-top: 145px;
+
     min-height: calc(100vh - 358px);
   }
 }
@@ -65,32 +92,71 @@
   left: calc(50% - 250px);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .coq-wrapper {
     display: none;
   }
+}
+
+@media (max-width: 1024px) {
   .gommette-pages-img {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
+  .title-absolute-top {
+    position: absolute; top:120px
+  }
+  .title-absolute-bottom {
+    position: absolute; top:140px
+  }
+  .title-technique {
+    margin-top: 10px;
+  }
+  .contact-wrapper div {
+    min-height: 0px;
+  }
+  .content-left {
+    padding-top: 200px;
+  }
+  .content-right {
+    padding-top: 0px;
+    margin-left: 0px;
+  }
   .coq-wrapper {
     display: none;
   }
   .contact-content {
+    min-width: 500px;
+    flex-direction: column;
     padding-right: 24px;
     padding-left: 24px;
   }
-}
-
-@media (max-width: 768px) {
   #contact-section {
     background: #FFFFFF;
   }
 }
 
+@media (max-width: 470px) {
+  .content-left {
+    padding-top: 240px;
+  }
+  .contact-content {
+    min-width: 0px;
+  }
+}
+
 @media (max-width: 425px) {
+  .title-absolute-top {
+    position: absolute; top:80px
+  }
+  .title-absolute-bottom {
+    position: absolute; top:100px
+  }
+  .content-left {
+    padding-top: 200px;
+  }
   .navbarseethrough.in-contact {
     img {
       height: 30px;
@@ -104,7 +170,7 @@
   }
   .contact-wrapper {
     div {
-      padding-top: 80px;
+      // padding-top: 80px;
     }
   }
 }
