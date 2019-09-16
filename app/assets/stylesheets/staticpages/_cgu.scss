@@ -24,6 +24,15 @@
   }
 }
 
+.tab-first-column {
+  max-width: 500px;
+}
+
+td {
+  border: solid 0.5px black;
+  padding: 4px;
+}
+
 @media (max-width: 425px) {
   .cgu-container {
     padding: 0px 24px;
