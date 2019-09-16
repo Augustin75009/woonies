@@ -27,8 +27,10 @@
 			<h3 class="semibold white"><div class="linegreen">Parents</div></h3>
 			<h2 class="white">Bientôt disponible …</h2>
 			<p class="light white">Indiquez votre adresse e-mail et recevez <span class="semibold white">gratuitement notre guide complet des modes de garde ! </span></p>
-			<form class="form-inline-bw" action="#">
-				<label for="email" hidden></label>
+			<form class="form-inline-bw" action="/add_to_list" method="POST">
+				<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+        <input type="hidden" name="type" value="parent">
+        <label for="email" hidden></label>
 				<input type="email" placeholder="Adresse e-mail" name="email">
 				<button>
 					<div class="spacearoundflex">valider <%= image_tag "others/arrow_right_white.svg"%></div>
