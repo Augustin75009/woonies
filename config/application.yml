@@ -1,7 +1,5 @@
 # Add configuration values here, as shown below.
 #
-MJ_APIKEY_PUBLIC: 9ed5d963b51a0a61b17377775f52b836
-MJ_APIKEY_PRIVATE: d6101f0176ca3eb8780eafc27540a5d0
 # pusher_app_id: "2954"
 # pusher_key: 7381a978f7dd7f9a1117
 # pusher_secret: abdc3b896a0ffb85d373
@@ -11,3 +9,5 @@ MJ_APIKEY_PRIVATE: d6101f0176ca3eb8780eafc27540a5d0
 # production:
 #   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+MAILCHIMP_API_KEY: 8c7805cccb19cba77b7ea54f9d9c526c-us3
+MAILCHIMP_LIST_ID: d646580c09
