@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root to: "pages#home"
+  get 'pages/cookies'
   get 'pages/contact'
   get 'pages/about'
   get 'pages/guide'

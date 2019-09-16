@@ -59,27 +59,29 @@
   }
 }
 .flex-right {
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
   padding: 0px 120px;
   margin-bottom: 75px;
   margin-top: 60px;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.founders-avatar {
-  margin-right: 80px;
+.founders-avatar.camille {
+  margin-right: 40px
+}
+.founders-avatar.melanie{
+  margin-left: 40px
 }
 
 .flex-left {
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
   padding: 0px 120px;
   margin-bottom: 75px;
   flex-direction: row-reverse;
-}
-.founders-avatar {
-  margin-left: 80px;
+  justify-content: space-between;
 }
 
   .catch-phrase {
@@ -128,6 +130,7 @@
   .mission {
     background:
     url(pages-about/gommette_mission.svg) -100px 50% / 25rem no-repeat;
+    background-color: #FFFFFF;
   }
 }
 
@@ -160,17 +163,23 @@
   .mission {
     background:
     url(pages-about/gommette_mission.svg) -200px 50% / 25rem no-repeat;
+    background-color: #FFFFFF;
   }
   .history {
     background:
     url(others/ensemble_sapin.svg) calc(100% + 100px) 100% / 40rem no-repeat,
-    url(animals/poussin_blanc.svg) 100px 100% / 4rem no-repeat,
-    url(animals/poussin_blanc.svg) 180px 100% / 4rem no-repeat;
+    url(animals/poussin_blanc.svg) 80px 100% / 4rem no-repeat,
+    url(animals/poussin_blanc.svg) 160px 100% / 4rem no-repeat;
     background-color: #E6F5FA;
   }
 }
 
 @media (max-width: 768px) {
+  .history {
+    background:
+    url(others/ensemble_sapin.svg) calc(100% + 100px) 100% / 40rem no-repeat;
+    background-color: #E6F5FA;
+  }
   .founders-avatar{
     margin: auto;
   }
@@ -194,12 +203,13 @@
     }
   }
   .about-bottom > div > img {
+    margin: 0px auto;
     width: 75%;
   }
 
   .history, .mission, .values, .founders {
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 64px;
+    padding-left: 64px;
   }
 
   .flex-left, .flex-right {

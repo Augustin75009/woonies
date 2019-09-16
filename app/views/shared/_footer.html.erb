@@ -31,7 +31,7 @@
     <div class="links">
       <div class="internal-links">
         <ul>
-          <li><%= link_to "Utilisation des cookies", root_path %></li>
+          <li><%= link_to "Utilisation des cookies", pages_cookies_path %></li>
           <li><%= link_to "Conditions d'utilisation", pages_CGU_path %></li>
           <li><%= link_to "Mentions légales", pages_legals_path %></li>
         </ul>
@@ -39,17 +39,17 @@
       <div class="external-links">
         <ul>
           <li>
-            <%= link_to("https://www.facebook.com/Woonies/") do %>
+            <%= link_to("https://www.facebook.com/Woonies/", target: "_blank") do %>
               <%= image_tag "social_networks/Facebook.svg", height: 24 %>
             <% end %>
           </li>
-          <li style="display: none">
-            <%= link_to(root_path) do %>
+          <li>
+            <%= link_to("https://www.linkedin.com/company/woonies/", target: "_blank") do %>
               <%= image_tag "social_networks/LinkedIn.svg", height: 24 %>
             <% end %>
           </li>
           <li style="display: none">
-            <%= link_to(root_path) do %>
+            <%= link_to("/", target: "_blank") do %>
               <%= image_tag "social_networks/Twitter.svg", height: 24 %>
             <% end %>          </li>
         </ul>
