@@ -24,8 +24,11 @@
 //GLOBAL SETUP
 
 body {
-	margin: 0px;
+  max-width: 1440px;
+	margin: auto;
 	position: relative;
+  background: url(stickers/gommette_pink.svg) 85% 100% / 6rem;
+  background-attachment: fixed;
 }
 
 .flex {
