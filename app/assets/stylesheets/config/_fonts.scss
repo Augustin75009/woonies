@@ -133,12 +133,7 @@ html {
 }
 
 /* Scaling down fonts for responsivity */
-@media (max-width: 1024px) {
-  html { font-size: 16px; }
-}
-@media (max-width: 550px) {
-  html { font-size: 14px; }
-}
+
 
 /* Modules will scale with document */
 .footer {

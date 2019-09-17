@@ -89,13 +89,11 @@
 	}
 }
 #subsection1B {
-	max-width: 300px;
 	display: flex;
 	justify-content: space-between;
 	margin-top: 20px;
-  padding-right: 20px;
 	img {
-			height: 122px;
+			height: auto;
 			max-width: 239px;
 	}
 	p {
@@ -113,12 +111,39 @@
 		text-decoration: none;
 	}
 }
+// #subtwo {
+//   grid-area: subtwo;
+//   display: flex;
+//   justify-content: center;
+//   padding: 20px 0;
+//   background-color: #7ACCC5;
+//   img {
+//       height: auto;
+//       max-width: 239px;
+//   }
+//   p {
+//     width: 239px;
+//     text-align: right;
+//     line-height: 1.71;
+//     color: #18273A;
+//   }
+//   a {
+//     padding: 10px;
+//     font-weight: 500;
+//     float:right;
+//     border-radius: 8px;
+//     background-color: #DEE0E2;
+//     color: #18273A;
+//     text-decoration: none;
+//   }
+// }
 
 #section2A {
   video {
-    width: 100%;
-    height: auto;
-  }
+      max-width: 592px;
+      width: 100%;
+      height: 100%;
+    }
 	grid-area: sectwoA;
 	padding: 67px 56px 10px 86px;
   background:
@@ -144,6 +169,7 @@
 }
 
 #section3A {
+  grid-area: secthreeA;
   background: url(stickers/gommette_1.svg) -100px 0% / 25rem no-repeat;
   background-color: #FFFFFF;
 }
@@ -175,7 +201,6 @@
 	padding: 57px 50px 67px 50px;
 }
 #section4 {
-  font-size: 1rem;
 	grid-area: secfour;
   background:
     url(animals/poussin_blanc.svg) 6%  100% / 5rem no-repeat,
@@ -187,7 +212,6 @@
 }
 
 #section5A {
-  font-size: 1rem;
 	grid-area: secfiveA;
 	background-color: #FFCFC5;
 	padding: 50px 150px;
@@ -320,45 +344,296 @@
 
 
 //RESPONSIVE TABLET
-
-@media screen and (max-width: 1024px) {
-
+@media all and (max-width: 1420px) {
   #section1A {
-    font-size: 0.8rem;
-    padding: 100px 60px 80px 60px;
     background:
-      url(others/arbre.svg) 95% 100% / 6rem no-repeat,
-      url(stickers/gommette_6.svg) 150% -30% / 20rem no-repeat,
-      url(others/ensemble_1.svg) 30% 100% / 20rem no-repeat;
+      url(stickers/gommette_6.svg) 110% -40% / 25rem no-repeat,
+      url(others/ensemble_7.svg) 90% 100% / 38rem no-repeat;
     background-color: #FFE1DC;
   }
   #section1B {
-    font-size: 0.8rem;
-    padding: 100px 60px 80px 60px;
+    background:
+      url(others/ensemble_5.svg) 2% 100% / 10rem no-repeat,
+      url(others/half_blue.svg) calc(2% + 10rem) 100% / 10rem no-repeat,
+      url(animals/poussin_blanc.svg) 75% 100% / 5rem no-repeat,
+      url(animals/poussin_blanc.svg) calc(75% + 6rem) 100% / 5rem no-repeat;
+    background-color: #18273A;
+  }
+  #subsection1B {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    img {
+        height: auto;
+        width: 50%;
+        max-width: 239px;
+    }
+    a {
+      padding: 10px;
+      font-weight: 500;
+      float:right;
+      border-radius: 8px;
+      background-color: #DEE0E2;
+      color: #18273A;
+      text-decoration: none;
+    }
+  }
+
+}
+
+@media all and (max-width: 1228px) {
+  #homegrid {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+      "seconeA seconeA seconeB seconeB"
+      "sectwoA sectwoA sectwoA sectwoA"
+      "sectwoB sectwoB sectwoB sectwoB"
+      "secthreeA secthreeB secthreeC secthreeD"
+      "secfour secfour secfour secfour"
+      "secfiveA secfiveA secfiveB secfiveB"
+      "secsixA secsixA secsixB secsixB"
+      "secsevenA secsevenA secsevenB secsevenB"
+      "seceight seceight seceight seceight";
+  }
+
+  #section1A{
+    padding: 92px 60px 150px 60px;
+  }
+  #section1B{
+    padding: 92px 60px 150px 60px;
+  }
+  #section2A{
+    padding: 20px;
+    .content{
+      max-width: 800px;
+      margin: 40px auto;
+    }
+    video{
+      max-width: 100%;
+    }
+  }
+  #section2B{
+    padding: 40px;
+    .content{
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+  #section4 {
+    background:
+      url(animals/poussin_blanc.svg) 2%  100% / 4rem no-repeat;
+    background-color: #18273A;
+  }
+  #section5A {
+    grid-area: secfiveA;
+    background-color: #FFCFC5;
+    padding: 50px 90px;
+    h2 {
+      margin-top: 0;
+    }
+  }
+  #section6A {
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    grid-area: secsixA;
+    position: relative;
+    .coq {
+      height: 28rem;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .gommette {
+      height: 12rem;
+      position: absolute;
+      left: 70%;
+      bottom: 55%;
+    }
+  }
+  #section6B {
+    padding: 50px;
+  }
+  #section7A {
+    padding: 50px;
+    .content{
+      h2{
+        margin-top: 0;
+      }
+      p{
+        margin-top: 0;
+        margin-left: 10px;
+      }
+    }
+    .flex{
+      align-content: flex-start;
+    }
+  }
+  #section7B {
+    font-size: 1rem;
+    grid-area: secsevenB;
+    background-image: url(pictures/baby_on_plane.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    .poussin {
+      height: 8rem;
+      position: absolute;
+      right: 15%;
+      bottom: 0;
+    }
+    .gommette {
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  #homegrid {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+      "seconeA seconeA seconeB seconeB"
+      "sectwoA sectwoA sectwoA sectwoA"
+      "sectwoB sectwoB sectwoB sectwoB"
+      "secthreeA secthreeB secthreeC secthreeD"
+      "secfour secfour secfour secfour"
+      "secfiveA secfiveA secfiveB secfiveB"
+      "secsixA secsixA secsixB secsixB"
+      "secsevenA secsevenA secsevenB secsevenB"
+      "seceight seceight seceight seceight";
+  }
+  #section1A{
+    padding: 92px 60px 150px 60px;
+    background:
+      url(stickers/gommette_6.svg) 110% -20% / 15rem no-repeat,
+      url(others/ensemble_7.svg) 80% 100% / 20rem no-repeat;
+    background-color: #FFE1DC;
+  }
+  #section1B{
+    padding: 92px 60px 150px 60px;
+    background:
+      url(others/ensemble_5.svg) 2% 100% / 8rem no-repeat,
+      url(others/half_blue.svg) calc(2% + 8rem) 100% / 8rem no-repeat,
+      url(animals/poussin_blanc.svg) 75% 100% / 4rem no-repeat,
+      url(animals/poussin_blanc.svg) calc(75% + 5rem) 100% / 4rem no-repeat;
+    background-color: #18273A;
+  }
+  #subsection1B {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    .content{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+        max-width: 100%;
+    }
+    p {
+      text-align: left;
+      margin: 0 10px 0 0;
+      line-height: 20px;
+    }
+    a {
+      padding: 10px;
+      font-weight: 500;
+      float: none;
+      border-radius: 8px;
+      background-color: #DEE0E2;
+      color: #18273A;
+      text-decoration: none;
+    }
+  }
+}
+
+//REPSONSIVE MOBILE
+
+@media screen and (max-width: 800px) {
+  #homegrid {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "seconeA seconeA"
+      "seconeB seconeB"
+      "subtwo subtwo"
+      "sectwoA sectwoA"
+      "sectwoB sectwoB"
+      "secthreeA secthreeB"
+      "secthreeC secthreeD"
+      "secfour secfour"
+      "secfiveB secfiveB"
+      "secfiveA secfiveA"
+      "secsixB secsixB"
+      "secsevenB secsevenB"
+      "secsevenA secsevenA"
+      "seceight seceight";
+    }
+  #section1A {
+    padding: 80px;
+    background:
+      url(others/arbre.svg) 95% 100% / 3rem no-repeat,
+      url(stickers/gommette_6.svg) 150% -30% / 15rem no-repeat,
+      url(others/ensemble_1.svg) 60% 100% / 10rem no-repeat;
+    background-color: #FFE1DC;
+  }
+  #section1B {
+    padding: 80px;
     background:
       url(others/ensemble_5.svg) 2% 100% / 6rem no-repeat,
       url(others/half_blue.svg) calc(2% + 6rem) 100% / 6rem no-repeat,
       url(animals/poussin_blanc.svg) 70% 100% / 3rem no-repeat,
       url(animals/poussin_blanc.svg) calc(70% + 4rem) 100% / 3rem no-repeat,
-      url(others/grand_sapin_2.svg) 90% 100% / 6rem no-repeat;
+      url(others/grand_sapin_2.svg) 90% 100% / 3rem no-repeat;
     background-color: #18273A;
   }
   #subsection1B {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    .content{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
     img {
-        height: auto;
-        max-width: 40%;
-
+        max-width: 100%;
+    }
+    p {
+      text-align: left;
+      margin: 0 10px 0 0;
+      line-height: 20px;
+    }
+    a {
+      padding: 10px;
+      font-weight: 500;
+      float: none;
+      border-radius: 8px;
+      background-color: #DEE0E2;
+      color: #18273A;
+      text-decoration: none;
     }
   }
+
   #section2A {
-    padding: 50px 40px 50px 70px;
-    background: url(stickers/gommette_1.svg) -40% 5%/ 20rem no-repeat;
-    background-color: #FFFFFF;
+    padding: 24px;
+    background: url(stickers/gommette_1.svg) -40% 5%/ 15rem no-repeat;
+    background-color: #FFF;
   }
 
   #section2B {
-    font-size: 0.8rem;
-    padding: 50px;
+    padding: 0 80px 20px;
     h2 {
       margin-top: 0;
     }
@@ -366,66 +641,63 @@
   #section3A {
     font-size: 0.8rem;
     background: url(stickers/gommette_1.svg) -100px 0% / 20rem no-repeat;
+    background-color: #FFF;
   }
 
   #section3B {
+    // text-align: center;
     font-size: 0.8rem;
-    padding: 30px 40px 50px;
+    padding: 8px 80px 32px;
   }
   #section3C {
+    // text-align: center;
     font-size: 0.8rem;
-    padding: 30px 40px 50px;
+    padding: 8px 80px 32px;
   }
   #section3D {
+    // text-align: center;
     font-size: 0.8rem;
-    padding: 30px 40px 50px;
+    padding: 8px 80px 32px;
   }
   #section4 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    padding: 5px 24px;
     background:
-      url(animals/poussin_blanc.svg) 3%  100% / 3rem no-repeat,
-      url(animals/poussin_blanc.svg) calc(3% + 4rem) 100% / 3rem no-repeat;
+      url(animals/poussin_blanc.svg) 2%  100% / 2rem no-repeat,
+      url(animals/poussin_blanc.svg) calc(2% + 3rem) 100% / 2rem no-repeat;
     background-color: #18273A;
   }
   #section5A {
     font-size: 0.8rem;
-    padding: 60px 80px;
+    padding: 40px 80px;
   }
   #section5B {
+    height: 150px;
     .canard {
-      width: 8rem;
-      left: -4rem;
+      width: 4rem;
+      left: 3rem;
+      bottom: 1rem
     }
   }
-  #section6A {
-    font-size: 0.8rem;
-    .coq {
-      height: 25rem;
-    }
-    .gommette{
-      height: 15rem;
-    }
-  }
-
   #section6B {
     font-size: 0.8rem;
-    padding: 60px 60px 50px 30px;
+    padding: 40px 80px;
   }
   #section7A {
     font-size: 0.8rem;
-    padding: 60px 40px 50px 60px;
+    padding: 40px 80px;
   }
   #section7B {
     font-size: 0.8rem;
     .poussin {
-      height: 6rem;
+      display: none;
     }
     .gommette {
-      height: 30rem;
+      height: 20rem;
     }
   }
   #section8 {
-    padding: 20px 50px;
+    padding: 20px 0 80px;
     .sapins{
       height: 8rem;
     }
@@ -433,7 +705,8 @@
       height: 20rem;
     }
     .cadre{
-      margin: 60px auto;
+      margin: 30px auto;
+      width: 90%;
     }
     .ensemble{
       height: 10rem;
@@ -441,17 +714,16 @@
   }
 }
 
-
-//REPSONSIVE MOBILE
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   #homelogo {
     height: 30px;
     margin-left: 15px;
     margin-top: 15px;
   }
 
-  #homegrid{
+  #homegrid {
+    overflow: hidden;
+    display: grid;
     grid-template-columns: 100%;
     grid-template-areas:
       "seconeA"
@@ -462,13 +734,13 @@
       "secthreeC"
       "secthreeD"
       "secfour"
-      "secfiveA"
       "secfiveB"
+      "secfiveA"
       "secsixB"
-      "secsevenA"
       "secsevenB"
+      "secsevenA"
       "seceight";
-  }
+    }
   #section1A {
     padding: 80px 24px 80px 24px;
     background:
@@ -517,12 +789,6 @@
       text-decoration: none;
     }
   }
-
-  #section2A {
-    padding: 24px;
-    background: url(stickers/gommette_1.svg) -40% 5%/ 15rem no-repeat;
-  }
-
   #section2B {
     font-size: 0.8rem;
     padding: 0 24px 20px;
@@ -530,24 +796,22 @@
       margin-top: 0;
     }
   }
-  #section3A {
-    font-size: 0.8rem;
-    background: url(stickers/gommette_1.svg) -100px 0% / 20rem no-repeat;
-  }
-
   #section3B {
     // text-align: center;
     font-size: 0.8rem;
+    text-align: center;
     padding: 8px 48px 32px;
   }
   #section3C {
     // text-align: center;
     font-size: 0.8rem;
+    text-align: center;
     padding: 8px 48px 32px;
   }
   #section3D {
     // text-align: center;
     font-size: 0.8rem;
+    text-align: center;
     padding: 8px 48px 32px;
   }
   #section4 {
@@ -569,7 +833,6 @@
       left: 3rem;
       bottom: 1rem
     }
-
   }
   #section6B {
     font-size: 0.8rem;
