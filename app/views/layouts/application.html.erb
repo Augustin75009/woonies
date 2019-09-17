@@ -11,9 +11,8 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body onload="showCookie()">
+  <body>
     <%= yield %>
     <%= render 'shared/footer' %>
-    <%= render 'shared/cookies' %>
   </body>
 </html>
