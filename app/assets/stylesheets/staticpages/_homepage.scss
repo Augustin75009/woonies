@@ -115,17 +115,15 @@
 }
 
 #section2A {
+  video {
+    width: 100%;
+    height: auto;
+  }
 	grid-area: sectwoA;
 	padding: 80px 50px 80px 100px ;
   background:
     url(stickers/gommette_1.svg) -40% 5%/ 20rem no-repeat;
   background-color: #FFFFFF;
-	.content {
-		img {
-			height: auto;
-			max-width: 100%;
-		}
-	}
 }
 
 #section2B {
@@ -337,8 +335,9 @@
     }
   }
   #section2A {
-    padding: 100px 40px 50px 70px;
+    padding: 50px 40px 50px 70px;
     background: url(stickers/gommette_1.svg) -40% 5%/ 20rem no-repeat;
+    background-color: #FFFFFF;
   }
 
   #section2B {
