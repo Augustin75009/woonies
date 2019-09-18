@@ -1,6 +1,7 @@
 #about-section {
   h4 {
     font-size: 17px;
+    font-weight: 500;
   }
   div > h1 {
     margin-bottom: 40px;
@@ -61,7 +62,7 @@
 .flex-right {
   max-width: 900px;
   margin: auto;
-  padding: 0px 120px;
+  padding: 0px 100px;
   margin-bottom: 75px;
   margin-top: 60px;
   flex-direction: row;
@@ -78,7 +79,7 @@
 .flex-left {
   max-width: 900px;
   margin: auto;
-  padding: 0px 120px;
+  padding: 0px 100px;
   margin-bottom: 75px;
   flex-direction: row-reverse;
   justify-content: space-between;
