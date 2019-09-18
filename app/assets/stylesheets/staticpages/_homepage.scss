@@ -578,12 +578,15 @@
       "seceight seceight";
     }
   #section1A {
-    padding: 80px;
+    padding: 100px 80px;
     background:
-      url(others/arbre.svg) 95% 100% / 3rem no-repeat,
       url(stickers/gommette_6.svg) 150% -30% / 15rem no-repeat,
-      url(others/ensemble_1.svg) 60% 100% / 10rem no-repeat;
+      url(others/ensemble_7.svg) 60% 100% / 15rem no-repeat;
     background-color: #FFE1DC;
+    .content{
+      max-width: 500px;
+      margin: 0 auto;
+    }
   }
   #section1B {
     padding: 80px;
@@ -594,6 +597,9 @@
       url(animals/poussin_blanc.svg) calc(70% + 4rem) 100% / 3rem no-repeat,
       url(others/grand_sapin_2.svg) 90% 100% / 3rem no-repeat;
     background-color: #18273A;
+    .content{
+      max-width: 500px;
+    }
   }
   #subsection1B {
     width: 100%;
