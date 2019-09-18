@@ -15,6 +15,7 @@
     <% end %>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -23,4 +24,20 @@
     <%= yield %>
     <%= render 'shared/footer' %>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#18273A"
+      },
+      "button": {
+        "background": "#7ACCC5"
+      }
+    },
+    "content": {
+      "href": "../pages/cookies"
+    }
+  });
+  </script>
 </html>
