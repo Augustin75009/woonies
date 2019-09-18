@@ -1,4 +1,6 @@
 #contact-section {
+  min-height: 620px;
+  height: calc(100vh - 222px);
   background:
     url(pages-contact/gommette_contact_2.svg) 100% 50% / 8rem no-repeat;
     background-color: #FFFFFF;
@@ -22,9 +24,10 @@
 
   .coq-container {
     padding-top: 0px;
-    height: 80%;
+    // height: 80%;
     width: 100%;
     background: url(animals/coq.svg) 0px 60% / contain no-repeat;
+    background-position: top;
   }
 
   p.cat-contact {
@@ -39,6 +42,14 @@
   }
 }
 
+::placeholder {
+  opacity: 0.4;
+}
+
+.submit {
+  border: 0px;
+}
+
 .title-absolute-top {
   position: absolute; top:160px
 }
@@ -50,7 +61,7 @@
   padding-right: 0px;
   padding-left: 0px;
   max-width: 620px;
-  margin: 0px auto 40px;
+  margin: 0px auto 0px;
 }
 
 .contact-content {
@@ -76,8 +87,8 @@
   display: flex;
   flex-direction: row;
   div {
-
-    min-height: calc(100vh - 358px);
+    min-height: 470px;
+    height: calc(100vh - 367px);
   }
 }
 
@@ -105,6 +116,9 @@
 }
 
 @media (max-width: 768px) {
+  #contact-section {
+    min-height: 900px;
+  }
   .title-absolute-top {
     position: absolute; top:120px
   }
@@ -115,7 +129,7 @@
     margin-top: 10px;
   }
   .contact-wrapper div {
-    min-height: 0px;
+    min-height: inherit;
   }
   .content-left {
     padding-top: 200px;
@@ -128,10 +142,14 @@
     display: none;
   }
   .contact-content {
+    padding-top: 80px;
     min-width: 500px;
     flex-direction: column;
     padding-right: 24px;
     padding-left: 24px;
+  }
+  .contact-content.guide {
+    padding-top: 80px;
   }
   #contact-section {
     background: #FFFFFF;
@@ -155,7 +173,7 @@
     position: absolute; top:100px
   }
   .content-left {
-    padding-top: 200px;
+    padding-top: 140px;
   }
   .navbarseethrough.in-contact {
     img {
